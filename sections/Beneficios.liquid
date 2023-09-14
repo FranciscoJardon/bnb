@@ -1,0 +1,170 @@
+<div class="ContenedorImgTextBeneficios">
+  <div class="TextBeneficios">
+    <div>
+      <i class='bx bx-check'></i>
+      <p>Mejora el aspecto de la piel
+      </p>
+    </div>
+
+    <div>
+      <i class='bx bx-check'></i>
+      <p>Elimina las toxinas del cuerpo
+      </p>
+    </div>
+    <div>
+      <i class='bx bx-check'></i>
+      <p>Aumenta tu energía
+      </p>
+    </div>
+  </div>
+  <img src="https://cdn.shopify.com/s/files/1/0606/0641/5012/files/declaracion_nutrimental__1_-removebg-preview_1_1.png?v=1694559715" alt="">
+</div>
+
+
+
+<style>
+  .ProductoLink {
+    font-weight: 600;
+  }
+  .BtnStyles {
+    padding: 0.5rem 3rem;
+    background: #003E53;
+    border-radius: 50px;
+    color: white;
+    align-self: start;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.5s ease-in-out;
+    font-size: 2.8rem;
+    font-weight: 600;
+  }
+
+  .Flecha {
+    font-size: 3rem;
+  }
+  .BtnStyles:hover {
+    gap: 15px;
+    transition: all 0.5s ease-in-out;
+  }
+  .TextBeneficios h4,
+  .Contenedor2Beneficios h4 {
+    color: #4CA585;
+    margin: 0;
+  }
+  .TextBeneficios h2,
+  .Contenedor2Beneficios h2 {
+    color: #003E53;
+    margin: 1rem 0;
+  }
+
+  .Beneficios {
+    padding: 3rem;
+    background: #E6F2F0;
+
+    border-radius: 5rem 0 0 5rem;
+  }
+  .ContenedorImgTextBeneficios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+  }
+  .ContenedorImgTextBeneficios img {
+    width: 50%;
+
+  }
+  .TextBeneficios {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .TextBeneficios div {
+    display: flex;
+    align-items: center;
+
+    font-size: 2rem;
+    text-transform: uppercase;
+    gap: 10px;
+  }
+  .TextBeneficios div i {
+    font-size: 2rem;
+  }
+  .CardIcon {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding-bottom: 4rem;
+  }
+  .CardIcon img {
+    width: 100px;
+  }
+  .ContenedorIconos {
+    width: 100%;
+    position: relative;
+  }
+
+  .Contenedor2Beneficios {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+  @media screen and (max-width: 560px) {
+    .ContenedorImgTextBeneficios {}
+    .TextBeneficios div {
+      font-size: 1.4rem;
+
+    }
+
+
+  }
+</style>
+<script>
+  var swiper = new Swiper(".ContenedorIconos", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    rewind: true,
+    autoplay: {
+      delay: 1000,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true
+    },
+    speed: 1000,
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 30
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 40
+      }
+    }
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Beneficios",
+    "class": "Beneficios",
+    "settings": [],
+    "blocks": [],
+    "presets": [
+      {
+        "name": "Beneficios",
+        "blocks": []
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,54 @@
+<section>
+  <div class="content">
+    <h1>
+      {{ section.settings['header-text'] }}
+    </h1>
+    <p>{{ section.settings['sub-header-text'] }}</p>
+    <span> {{ section.settings['descripicion-text'] }} </span>
+  </div>
+</section>
+
+<style>
+    .contenedor-header-distribuidores h1 {
+        font-size: calc(3.525rem + 1.3vw);
+        font-weight: bold;
+    }
+
+    .contenedor-header-distribuidores p {
+        font-size: calc(1.3rem + .6vw)!important;
+        font-weight: bold;
+    }
+
+</style>
+
+
+
+
+{% schema %}
+{
+  "name": "Header",
+  "settings": [
+    {
+      "type": "text",
+      "id": "header-text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "sub-header-text",
+      "label": "text"
+    },
+    {
+      "type": "richtext",
+      "id": "descripicion-text",
+      "label": "Text"
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Header text"
+    }
+  ]
+}
+{% endschema %}

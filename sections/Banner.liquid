@@ -1,0 +1,259 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<style>
+  .ContenedorArrows {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  i {
+    font-size: 1.4rem;
+  }
+
+  .SwiperBanner {
+    width: 100%;
+  }
+
+  .SlideBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+  }
+  .ArrowBtn {
+    color: white;
+    background: #243D81;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+  }
+  .ImgSliderBannerTel {
+    display: none;
+  }
+  .div_template {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .Btn_template {
+    border-radius: 3px;
+    width: 130px;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+  }
+  .btn_Tel {
+    display: none;
+  }
+  .ImgSliderBanner {
+    width: 100%;
+    position: relative;
+  }
+
+
+  @media screen and (max-width: 760px) {
+    .Btn_template {
+      border-radius: 50px;
+      color: white;
+      padding: 0.2rem 0;
+      font-size: 2rem;
+      font-weight: 300;
+      text-align: center;
+      border: none;
+    }
+    .btn_desk {
+      display: none;
+    }
+    .btn_Tel {
+      display: flex;
+    }
+    .ImgSliderBanner {
+      display: none !important;
+    }
+    .ImgSliderBannerTel {
+      display: flex;
+      width: 100%;
+    }
+
+    .ContenedorArrows {
+      display: none
+    }
+  }
+</style>
+
+<!-- Swiper -->
+<div class="swiper SwiperBanner">
+  <div class="swiper-wrapper">
+    {% for block in section.blocks %}
+      <div class="swiper-slide SlideBanner ">
+
+        <img class=" ImgSlider ImgSliderBanner" src="{{ block.settings.ImgBannerDesk| img_url: '4000x' }}" />
+        <img class="ImgSlider ImgSliderBannerTel" src="{{ block.settings.ImgBannerMov | img_url: '4000x' }}" />
+
+        <div style="top:{{ block.settings.Top }}%;transform: translate(-{{ block.settings.Left}}%, -{{ block.settings.Top }}%);left:{{ block.settings.Left }}%;    " class="div_template btn_desk">
+          <a
+            href="{{ block.settings.UrlBanner }}"
+            class=" BtnStyles"
+            style="background:{{ block.settings.BtnBackColor }} ;color:{{ block.settings.BtnTextColor }}">{{ block.settings.TituloBtnBanner }}
+            <i class='bx bx-right-arrow-alt Flecha'></i>
+          </a>
+        </div>
+        <div style="top:{{ block.settings.TopTel }}%;transform: translate(-{{ block.settings.LeftTel}}%, -{{ block.settings.TopTel }}%);left:{{ block.settings.LeftTel }}%;   " class="div_template btn_Tel">
+          <a
+            href="{{ block.settings.UrlBanner }}"
+            class="BtnStyles "
+            style="background:{{ block.settings.BtnBackColor }} ;color:{{ block.settings.BtnTextColor }}">{{ block.settings.TituloBtnBanner }}
+            <i class='bx bx-right-arrow-alt Flecha'></i>
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+
+  </div>
+  <div class="ContenedorArrows">
+    <div class="button-prev ArrowBtn">
+      <i class='bx bx-chevron-left'></i>
+    </div>
+    <div class="button-next ArrowBtn">
+      <i class='bx bx-chevron-right'></i>
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".SwiperBanner", {
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true
+    },
+    navigation: {
+      nextEl: ".button-next",
+      prevEl: ".button-prev"
+    },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false
+    }
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "SliderBanner",
+    "class": "SliderBanner",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Banner",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "ImgBannerDesk",
+            "label": "Imagen Desktop"
+          },
+          {
+            "type": "image_picker",
+            "id": "ImgBannerMov",
+            "label": "Imagen Teléfono"
+          },
+          {
+            "type": "header",
+            "content": "Botón"
+          },
+          {
+            "type": "url",
+            "id": "UrlBanner",
+            "label": "UrlBanner"
+          }, {
+            "type": "text",
+            "id": "TituloBtnBanner",
+            "label": "TituloBtn",
+            "default": "Ver más"
+          }, {
+            "type": "color",
+            "id": "BtnBackColor",
+            "label": "Color de Fondo",
+            "default": "#000000"
+          }, {
+            "type": "color",
+            "id": "BtnTextColor",
+            "label": "Color de Texto",
+            "default": "#ffffff"
+          }, {
+            "type": "header",
+            "content": "Posición Desktop"
+          }, {
+            "type": "range",
+            "id": "Top",
+            "min": 1,
+            "max": 100,
+            "step": 1,
+            "unit": "%",
+            "label": "Top",
+            "default": 20
+          }, {
+            "type": "range",
+            "id": "Left",
+            "min": 1,
+            "max": 100,
+            "step": 1,
+            "unit": "%",
+            "label": "Left",
+            "default": 10
+          }, {
+            "type": "header",
+            "content": "Posición Teléfono"
+          }, {
+            "type": "range",
+            "id": "TopTel",
+            "min": 1,
+            "max": 100,
+            "step": 1,
+            "unit": "%",
+            "label": "Top",
+            "default": 20
+          }, {
+            "type": "range",
+            "id": "LeftTel",
+            "min": 1,
+            "max": 100,
+            "step": 1,
+            "unit": "%",
+            "label": "Left",
+            "default": 10
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "SliderBanner",
+        "blocks": []
+      }
+    ]
+  }
+{% endschema %}
