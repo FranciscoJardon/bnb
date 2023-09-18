@@ -123,6 +123,7 @@
           "type": "image",
           "settings": {
             "ImgBannerDesk": "shopify:\/\/shop_images\/Group_17.svg",
+            "ImgBannerMov": "shopify:\/\/shop_images\/Group_17_1.svg",
             "UrlBanner": "",
             "TituloBtnBanner": "Ver más",
             "BtnBackColor": "#000000",
