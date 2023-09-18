@@ -1,1 +1,59 @@
-{"sections":{"01751188-9a20-4d1f-a7a7-20e864c23a1b":{"type":"Banner","blocks":{"40ea4c14-c982-499e-a8c0-889283ad9118":{"type":"image","settings":{"ImgBannerDesk":"shopify:\/\/shop_images\/4_4cc98459-dea4-4e2f-a013-650a41ca708c.png","ImgBannerMov":"shopify:\/\/shop_images\/4_1.png","UrlBanner":"shopify:\/\/pages\/distribuidores","TituloBtnBanner":"Ver más","BtnBackColor":"#000000","BtnTextColor":"#ffffff","Top":95,"Left":48,"TopTel":47,"LeftTel":50}},"224f29e8-60fb-4101-963b-6a303655ffdf":{"type":"image","settings":{"ImgBannerDesk":"shopify:\/\/shop_images\/1_d9c9004e-ce0a-482b-b325-1cea104a1f14.png","ImgBannerMov":"shopify:\/\/shop_images\/1_1.png","UrlBanner":"shopify:\/\/products\/colageno-hidrolizado","TituloBtnBanner":"Comprar Ahora","BtnBackColor":"#003e53","BtnTextColor":"#ffffff","Top":86,"Left":5,"TopTel":45,"LeftTel":50}},"6af6554e-69df-472c-816b-0a85d6254e13":{"type":"image","settings":{"ImgBannerDesk":"shopify:\/\/shop_images\/2_7625ee8e-831a-487e-b499-e60bdec28fce.png","ImgBannerMov":"shopify:\/\/shop_images\/2_1.png","UrlBanner":"shopify:\/\/products\/jugo-green","TituloBtnBanner":"Ver más","BtnBackColor":"#fff","BtnTextColor":"#348158","Top":93,"Left":13,"TopTel":54,"LeftTel":15}},"4f441f66-e645-4f42-b64e-d43b21ab84f3":{"type":"image","settings":{"ImgBannerDesk":"shopify:\/\/shop_images\/3_60b69919-9de1-4e6f-a439-7d8042d3fb44.png","ImgBannerMov":"shopify:\/\/shop_images\/3_1.png","UrlBanner":"shopify:\/\/products\/gomitas-para-cabello-piel-y-unas","TituloBtnBanner":"Comprar Ahora","BtnBackColor":"#dd1d1d","BtnTextColor":"#ffffff","Top":84,"Left":30,"TopTel":42,"LeftTel":50}}},"block_order":["40ea4c14-c982-499e-a8c0-889283ad9118","224f29e8-60fb-4101-963b-6a303655ffdf","6af6554e-69df-472c-816b-0a85d6254e13","4f441f66-e645-4f42-b64e-d43b21ab84f3"],"settings":{}},"48f39272-2d21-4b01-9b60-eb154d57a97c":{"type":"Beneficios","settings":{}},"cd3b283b-85cc-4485-93a3-ef79241f1619":{"type":"featured-collection","settings":{"title":"Nuestros Productos","heading_size":"h2","description":"","show_description":false,"description_style":"uppercase","collection":"verano22","products_to_show":5,"columns_desktop":4,"full_width":false,"show_view_all":false,"view_all_style":"outline","enable_desktop_slider":true,"color_scheme":"","image_ratio":"portrait","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"1","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}},"6f8ed4f7-ad59-4996-b26e-c8fddbd4f1c0":{"type":"Ingredientes","settings":{}},"af203ffa-fb08-4fe8-8376-b3646c945cf4":{"type":"Reviews","settings":{}}},"order":["01751188-9a20-4d1f-a7a7-20e864c23a1b","48f39272-2d21-4b01-9b60-eb154d57a97c","cd3b283b-85cc-4485-93a3-ef79241f1619","6f8ed4f7-ad59-4996-b26e-c8fddbd4f1c0","af203ffa-fb08-4fe8-8376-b3646c945cf4"]}
+{
+  "sections": {
+    "01751188-9a20-4d1f-a7a7-20e864c23a1b": {
+      "type": "Banner",
+      "settings": {
+      }
+    },
+    "48f39272-2d21-4b01-9b60-eb154d57a97c": {
+      "type": "Beneficios",
+      "settings": {
+      }
+    },
+    "cd3b283b-85cc-4485-93a3-ef79241f1619": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Nuestros Productos",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "uppercase",
+        "collection": "verano22",
+        "products_to_show": 5,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6f8ed4f7-ad59-4996-b26e-c8fddbd4f1c0": {
+      "type": "Ingredientes",
+      "settings": {
+      }
+    },
+    "af203ffa-fb08-4fe8-8376-b3646c945cf4": {
+      "type": "Reviews",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "01751188-9a20-4d1f-a7a7-20e864c23a1b",
+    "48f39272-2d21-4b01-9b60-eb154d57a97c",
+    "cd3b283b-85cc-4485-93a3-ef79241f1619",
+    "6f8ed4f7-ad59-4996-b26e-c8fddbd4f1c0",
+    "af203ffa-fb08-4fe8-8376-b3646c945cf4"
+  ]
+}
