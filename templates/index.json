@@ -154,11 +154,24 @@
           "settings": {
             "ImgTall": "shopify:\/\/shop_images\/BNB_CORP-66.jpg"
           }
+        },
+        "ad781459-586c-4d2f-9345-c18488ddb347": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "9ccc2ed1-1c8f-4312-ab14-c7a084652e9f": {
+          "type": "image-Tall",
+          "settings": {
+            "ImgTall": "shopify:\/\/shop_images\/BNB_CORP-45.jpg"
+          }
         }
       },
       "block_order": [
         "070943f3-7e9e-469d-989b-d272ee776f8b",
-        "af150d9e-1743-4f10-a97c-7e109ba123f3"
+        "af150d9e-1743-4f10-a97c-7e109ba123f3",
+        "ad781459-586c-4d2f-9345-c18488ddb347",
+        "9ccc2ed1-1c8f-4312-ab14-c7a084652e9f"
       ],
       "settings": {
       }
