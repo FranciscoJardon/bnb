@@ -126,12 +126,12 @@
             "ImgBannerMov": "shopify:\/\/shop_images\/Group_17_1.svg",
             "UrlBanner": "",
             "TituloBtnBanner": "Ver más",
-            "BtnBackColor": "#000000",
+            "BtnBackColor": "#003e53",
             "BtnTextColor": "#ffffff",
             "Top": 20,
             "Left": 10,
-            "TopTel": 20,
-            "LeftTel": 10
+            "TopTel": 96,
+            "LeftTel": 1
           }
         }
       },
