@@ -1,4 +1,14 @@
-<div class=""></div>
+<br><br>
+<div class="ContendorTextos">
+  <div>
+    <h1>Se parte de esta hermosa comunidad</h1>
+  </div>
+  <div>
+    <h2>Siguenos en Instagram</h2>
+    <a href="https://www.instagram.com/bnbcorp/">@bnbcorp
+    </a>
+  </div>
+</div>
 
 <div class="grid-container">
   {% for block in section.blocks %}
@@ -12,6 +22,28 @@
 
 
 <style>
+  .Galeria {
+
+    padding: 0 5rem;
+  }
+
+  .ContendorTextos {
+    display: flex;
+    justify-content: space-around;
+
+
+  }
+  .ContendorTextos a {
+    color: #348158;
+  }
+
+  .ContendorTextos h1 {
+    color: #348158;
+  }
+  .ContendorTextos h2 {
+    color: #121212;
+  }
+
 
 
   .grid-item {
@@ -40,8 +72,16 @@
     grid-auto-flow: dense;
   }
   @media(max-width: 600px) {
+    .Galeria {
+      padding: 0;
+    }
     .grid-container {
       grid-template-columns: repeat(2, 1fr);
+    }
+    .ContendorTextos {
+      flex-direction: column;
+      text-align: center;
+
     }
 
   }
