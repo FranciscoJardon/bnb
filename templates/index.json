@@ -147,6 +147,7 @@
         "070943f3-7e9e-469d-989b-d272ee776f8b": {
           "type": "image",
           "settings": {
+            "Img": "shopify:\/\/shop_images\/BNB_CORP-26.jpg"
           }
         },
         "af150d9e-1743-4f10-a97c-7e109ba123f3": {
@@ -158,6 +159,7 @@
         "ad781459-586c-4d2f-9345-c18488ddb347": {
           "type": "image",
           "settings": {
+            "Img": "shopify:\/\/shop_images\/BNB_CORP-35.jpg"
           }
         },
         "9ccc2ed1-1c8f-4312-ab14-c7a084652e9f": {
@@ -165,13 +167,19 @@
           "settings": {
             "ImgTall": "shopify:\/\/shop_images\/BNB_CORP-45.jpg"
           }
+        },
+        "b17a7014-f31f-4ca5-be3c-9eb951f87baf": {
+          "type": "image-Wide",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "070943f3-7e9e-469d-989b-d272ee776f8b",
         "af150d9e-1743-4f10-a97c-7e109ba123f3",
         "ad781459-586c-4d2f-9345-c18488ddb347",
-        "9ccc2ed1-1c8f-4312-ab14-c7a084652e9f"
+        "9ccc2ed1-1c8f-4312-ab14-c7a084652e9f",
+        "b17a7014-f31f-4ca5-be3c-9eb951f87baf"
       ],
       "settings": {
       }
