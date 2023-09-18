@@ -81,6 +81,29 @@
         "padding_bottom": 36
       }
     },
+    "c4db6efc-ac11-4b64-821e-2ac7857fd071": {
+      "type": "rich-text",
+      "blocks": {
+        "0c429cb8-62bd-4f9a-9c7c-528b57259246": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>INGREDIENTES<\/strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "0c429cb8-62bd-4f9a-9c7c-528b57259246"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "6f8ed4f7-ad59-4996-b26e-c8fddbd4f1c0": {
       "type": "Ingredientes",
       "settings": {
@@ -97,6 +120,7 @@
     "48f39272-2d21-4b01-9b60-eb154d57a97c",
     "51b75dd9-0331-4b68-bf79-5b9fb6a6d83a",
     "cd3b283b-85cc-4485-93a3-ef79241f1619",
+    "c4db6efc-ac11-4b64-821e-2ac7857fd071",
     "6f8ed4f7-ad59-4996-b26e-c8fddbd4f1c0",
     "af203ffa-fb08-4fe8-8376-b3646c945cf4"
   ]
