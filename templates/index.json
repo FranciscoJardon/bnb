@@ -128,8 +128,8 @@
             "TituloBtnBanner": "Ver más",
             "BtnBackColor": "#003e53",
             "BtnTextColor": "#ffffff",
-            "Top": 20,
-            "Left": 10,
+            "Top": 88,
+            "Left": 27,
             "TopTel": 96,
             "LeftTel": 1
           }
