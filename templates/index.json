@@ -9,10 +9,10 @@
             "ImgBannerDesk": "shopify:\/\/shop_images\/Group_14.svg",
             "UrlBanner": "",
             "TituloBtnBanner": "Ver más",
-            "BtnBackColor": "#000000",
+            "BtnBackColor": "#003e53",
             "BtnTextColor": "#ffffff",
-            "Top": 20,
-            "Left": 10,
+            "Top": 97,
+            "Left": 50,
             "TopTel": 20,
             "LeftTel": 10
           }
