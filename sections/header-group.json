@@ -5,7 +5,7 @@
     "2a1e99db-fa79-4d43-9c91-913864559945": {
       "type": "anuncios-barra",
       "settings": {
-        "text": "Welcome to our store",
+        "text": "ENVÍOS A TODO MÉXICO",
         "colorBackground": "#348158",
         "colorText": "#fff",
         "link": ""
@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "ENVÍOS A TODO MÉXICO",
+            "text": "",
             "link": ""
           }
         },
