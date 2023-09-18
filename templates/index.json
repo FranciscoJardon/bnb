@@ -7,6 +7,7 @@
           "type": "image",
           "settings": {
             "ImgBannerDesk": "shopify:\/\/shop_images\/Group_14.svg",
+            "ImgBannerMov": "shopify:\/\/shop_images\/Group_15.svg",
             "UrlBanner": "",
             "TituloBtnBanner": "Ver más",
             "BtnBackColor": "#003e53",
