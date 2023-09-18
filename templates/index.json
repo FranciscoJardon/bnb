@@ -36,7 +36,7 @@
         "template--17082459455652__51b75dd9-0331-4b68-bf79-5b9fb6a6d83a-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Nuestros Paquetes",
+            "heading": "<strong>Nuestros Paquetes<\/strong>",
             "heading_size": "h1"
           }
         }
