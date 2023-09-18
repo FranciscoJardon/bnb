@@ -143,6 +143,22 @@
     },
     "e97ccc62-1e62-43bf-80f3-34fc1a56b0ce": {
       "type": "galeria",
+      "blocks": {
+        "070943f3-7e9e-469d-989b-d272ee776f8b": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "af150d9e-1743-4f10-a97c-7e109ba123f3": {
+          "type": "image-Tall",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "070943f3-7e9e-469d-989b-d272ee776f8b",
+        "af150d9e-1743-4f10-a97c-7e109ba123f3"
+      ],
       "settings": {
       }
     }
