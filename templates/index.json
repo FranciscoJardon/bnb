@@ -140,6 +140,11 @@
       ],
       "settings": {
       }
+    },
+    "e97ccc62-1e62-43bf-80f3-34fc1a56b0ce": {
+      "type": "galeria",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -149,6 +154,7 @@
     "cd3b283b-85cc-4485-93a3-ef79241f1619",
     "c4db6efc-ac11-4b64-821e-2ac7857fd071",
     "6f8ed4f7-ad59-4996-b26e-c8fddbd4f1c0",
-    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68"
+    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68",
+    "e97ccc62-1e62-43bf-80f3-34fc1a56b0ce"
   ]
 }
