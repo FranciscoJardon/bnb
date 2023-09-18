@@ -30,6 +30,29 @@
       "settings": {
       }
     },
+    "51b75dd9-0331-4b68-bf79-5b9fb6a6d83a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17082459455652__51b75dd9-0331-4b68-bf79-5b9fb6a6d83a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nuestros Paquetes",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--17082459455652__51b75dd9-0331-4b68-bf79-5b9fb6a6d83a-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "cd3b283b-85cc-4485-93a3-ef79241f1619": {
       "type": "featured-collection",
       "settings": {
@@ -72,6 +95,7 @@
   "order": [
     "01751188-9a20-4d1f-a7a7-20e864c23a1b",
     "48f39272-2d21-4b01-9b60-eb154d57a97c",
+    "51b75dd9-0331-4b68-bf79-5b9fb6a6d83a",
     "cd3b283b-85cc-4485-93a3-ef79241f1619",
     "6f8ed4f7-ad59-4996-b26e-c8fddbd4f1c0",
     "af203ffa-fb08-4fe8-8376-b3646c945cf4"
