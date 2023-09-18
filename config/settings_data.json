@@ -2,7 +2,8 @@
   "current": {
     "logo": "shopify:\/\/shop_images\/BNB_Logo_-05_d0bb6e3c-15ca-4708-876b-3f49dc6f3e50.png",
     "type_header_font": "montserrat_n4",
-    "type_body_font": "assistant_n4",
+    "heading_scale": 105,
+    "type_body_font": "prompt_n4",
     "page_width": 1200,
     "social_facebook_link": "https:\/\/www.facebook.com\/BNBcorpoficial-114032736687514\/",
     "social_instagram_link": "https:\/\/instagram.com\/bnbcorp?utm_medium=copy_link",
