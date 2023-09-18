@@ -116,6 +116,30 @@
       "settings": {
       }
     },
+    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68": {
+      "type": "Banner",
+      "blocks": {
+        "68d800f9-bd09-45c6-ac98-4fc7c2b1f687": {
+          "type": "image",
+          "settings": {
+            "ImgBannerDesk": "shopify:\/\/shop_images\/Group_17.svg",
+            "UrlBanner": "",
+            "TituloBtnBanner": "Ver más",
+            "BtnBackColor": "#000000",
+            "BtnTextColor": "#ffffff",
+            "Top": 20,
+            "Left": 10,
+            "TopTel": 20,
+            "LeftTel": 10
+          }
+        }
+      },
+      "block_order": [
+        "68d800f9-bd09-45c6-ac98-4fc7c2b1f687"
+      ],
+      "settings": {
+      }
+    },
     "af203ffa-fb08-4fe8-8376-b3646c945cf4": {
       "type": "Reviews",
       "settings": {
@@ -129,6 +153,7 @@
     "cd3b283b-85cc-4485-93a3-ef79241f1619",
     "c4db6efc-ac11-4b64-821e-2ac7857fd071",
     "6f8ed4f7-ad59-4996-b26e-c8fddbd4f1c0",
+    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68",
     "af203ffa-fb08-4fe8-8376-b3646c945cf4"
   ]
 }
