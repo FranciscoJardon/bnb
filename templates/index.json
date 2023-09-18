@@ -33,8 +33,8 @@
     "cd3b283b-85cc-4485-93a3-ef79241f1619": {
       "type": "featured-collection",
       "settings": {
-        "title": "Nuestros Productos",
-        "heading_size": "h2",
+        "title": "",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "uppercase",
