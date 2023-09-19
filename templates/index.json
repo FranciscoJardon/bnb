@@ -129,7 +129,7 @@
           "settings": {
             "ImgBannerDesk": "shopify:\/\/shop_images\/Group_17.svg",
             "ImgBannerMov": "shopify:\/\/shop_images\/Group_17_3_bf8a7c3d-e131-4746-b2ce-125ff5d79ed3.svg",
-            "UrlBanner": "",
+            "UrlBanner": "shopify:\/\/pages\/distribuidores",
             "TituloBtnBanner": "Ver más",
             "BtnBackColor": "#003e53",
             "BtnTextColor": "#ffffff",
