@@ -8,7 +8,7 @@
           "settings": {
             "ImgBannerDesk": "shopify:\/\/shop_images\/Group_14.svg",
             "ImgBannerMov": "shopify:\/\/shop_images\/Group_15.svg",
-            "UrlBanner": "",
+            "UrlBanner": "shopify:\/\/products\/colageno-hidrolizado",
             "TituloBtnBanner": "Ver más",
             "BtnBackColor": "#003e53",
             "BtnTextColor": "#ffffff",
