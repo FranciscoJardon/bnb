@@ -24,14 +24,16 @@
 <style>
   .Galeria {
 
-    padding: 0 5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .ContendorTextos {
     display: flex;
     justify-content: space-around;
-
-
+    width: 100%;
   }
   .ContendorTextos a {
     color: #348158;
@@ -56,6 +58,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
   }
 
   .grid-item:hover {
@@ -70,6 +73,7 @@
     gap: 20px;
     padding: 20px;
     grid-auto-flow: dense;
+    max-width: 1500px;
   }
   @media(max-width: 600px) {
     .Galeria {
