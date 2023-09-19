@@ -116,6 +116,11 @@
       "settings": {
       }
     },
+    "ffd8b401-dfc0-4aa2-b55d-f90daca0ff7d": {
+      "type": "Historia",
+      "settings": {
+      }
+    },
     "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68": {
       "type": "Banner",
       "blocks": {
@@ -221,6 +226,7 @@
     "cd3b283b-85cc-4485-93a3-ef79241f1619",
     "c4db6efc-ac11-4b64-821e-2ac7857fd071",
     "6f8ed4f7-ad59-4996-b26e-c8fddbd4f1c0",
+    "ffd8b401-dfc0-4aa2-b55d-f90daca0ff7d",
     "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68",
     "e97ccc62-1e62-43bf-80f3-34fc1a56b0ce"
   ]
