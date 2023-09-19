@@ -1,9 +1,75 @@
 <div class="ContenedorVideo">
-  <h3></h3>
+  <div class="ContenidoVideo">
+
+    <video
+      volume="0.5"
+      controls
+      class="VideoHistoria"
+      src="https://cdn.shopify.com/videos/c/o/v/bd63a74156b54ef49b1a9a427d1f128b.mp4"></video>
+  </div>
+  <div class="ContenedorTextos">
+    <h1>Conoce Nuestra Historia</h1>
+    <p>BNB NO ES UN NEGOCIO, SI NO UNA MISIÓN DE VIDA, EL OBJETIVO DE BNB ES AYUDAR A PERSONAS CON LOS MISMOS PROBLEMA QUE YO TUVE.
+    </p>
+  </div>
+
 </div>
+<script>
+  // Obtén una referencia al elemento de video
+  var video = document.getElementById('myVideo');
+
+// Establece el volumen del video al 50% (0.5) usando JavaScript
+  video.volume = 0.5;
+</script>
 
 <style>
-  .ContenedorVideo {}
+  .ContenedorTextos {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .ContenedorVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 2rem;
+  }
+  .ContenidoVideo {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .BtnPlay {
+    position: absolute;
+    font-size: 10rem;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    color: #000;
+  }
+  .VideoHistoria {
+    max-width: 400px;
+    width: 100%;
+  }
+  .ContenedorVideo h1 {
+    color: #348158;
+  }
+  @media(max-width: 800px) {
+
+    .ContenedorVideo {
+      flex-direction: column;
+      gap: 30px;
+    }
+    .ContenidoVideo {
+      order: 2;
+    }
+    .ContenedorTextos {
+      order: 1;
+    }
+  }
 </style>
 {% schema %}
   {
