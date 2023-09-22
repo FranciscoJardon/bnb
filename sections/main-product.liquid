@@ -164,9 +164,11 @@
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 
- <br> <br>
+ <br>
+                          <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
                           <details>
-  <summary>  <i class="bx bx-ruler"></i> Descripción  </summary>
+  <summary>  Descripción <i class='bx bx-chevron-down'></i> </summary>
                 <br>
  <p> {{ product.description }}</p>
 </details>
