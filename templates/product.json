@@ -43,15 +43,6 @@
           "settings": {
           }
         },
-        "4432fe14-2e46-4e92-a7a7-da970bcf6800": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Descripción",
-            "icon": "none",
-            "content": "<p>{{ shop.brand.short_description }}<\/p>",
-            "page": ""
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -67,7 +58,6 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "4432fe14-2e46-4e92-a7a7-da970bcf6800",
         "share"
       ],
       "settings": {
