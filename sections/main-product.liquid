@@ -163,9 +163,15 @@
               </p>
             {%- when 'description' -%}
               {%- if product.description != blank -%}
-                <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
+
+                          <details>
+  <summary>  <i class="bx bx-ruler"></i> Info Size  </summary>
+                <br>
+ <p> {{ product.description }}</p>
+</details>
+                <!-- <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                   {{ product.description }}
-                </div>
+                </div> -->
               {%- endif -%}
 
                           <style>
