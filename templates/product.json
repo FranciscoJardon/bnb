@@ -43,16 +43,16 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "bfd3322b-f834-4ac9-a3c3-0369fb379e10": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0606\/0641\/5012\/files\/Recurso_2.svg?v=1695396272\" alt=\"\">"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
@@ -64,8 +64,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "bfd3322b-f834-4ac9-a3c3-0369fb379e10"
+        "bfd3322b-f834-4ac9-a3c3-0369fb379e10",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
