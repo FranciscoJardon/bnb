@@ -146,6 +146,11 @@
       "settings": {
       }
     },
+    "0a48354b-d02e-4777-8802-928b522760c2": {
+      "type": "linea",
+      "settings": {
+      }
+    },
     "baaae831-1105-4de8-9de0-9b8b8b3e9dcc": {
       "type": "rich-text",
       "blocks": {
@@ -300,6 +305,7 @@
     "6f8ed4f7-ad59-4996-b26e-c8fddbd4f1c0",
     "ffd8b401-dfc0-4aa2-b55d-f90daca0ff7d",
     "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68",
+    "0a48354b-d02e-4777-8802-928b522760c2",
     "baaae831-1105-4de8-9de0-9b8b8b3e9dcc",
     "dd349e4b-e8c6-4806-bf6a-b7f2ea543dd9",
     "e97ccc62-1e62-43bf-80f3-34fc1a56b0ce"
