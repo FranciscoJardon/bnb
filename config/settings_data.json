@@ -347,5 +347,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "html,p, h2, h1, h3 {font-weight:700 !important;}"
+    ]
   }
 }
