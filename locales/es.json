@@ -491,6 +491,9 @@
     "checkout": {
       "payment": {
         "paypal_label": "Paga con paypal"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Paga con tarjeta de crédito y débito "
       }
     }
   },
