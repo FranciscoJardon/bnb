@@ -13,6 +13,16 @@
           "settings": {
           }
         },
+        "fc1729df-2c80-43e9-b682-b8fcf8ee1940": {
+          "type": "related_products",
+          "disabled": true,
+          "settings": {
+            "heading": "NUESTROS PAQUETES",
+            "heading_font_size": 18,
+            "heading_color": "#348158",
+            "hover_border_color": "#121212"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -42,6 +52,7 @@
       "block_order": [
         "title",
         "price",
+        "fc1729df-2c80-43e9-b682-b8fcf8ee1940",
         "variant_picker",
         "buy_buttons",
         "description",
