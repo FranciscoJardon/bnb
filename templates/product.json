@@ -90,10 +90,103 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "188b2fc1-5d09-40db-bef5-7384a497e171": {
+      "type": "list-icons",
+      "settings": {
+        "title-icons": ""
+      }
+    },
+    "52a50a73-80aa-4bfb-acf9-45347365078f": {
+      "type": "list-icons",
+      "blocks": {
+        "7ddbec7f-a721-4fbe-b1a8-20ce375a0a64": {
+          "type": "icons",
+          "settings": {
+            "img-1": "shopify:\/\/shop_images\/Group_40317312-2031-4d6b-8e94-00326a7af407.svg",
+            "text-1": "FORTALECE TUS HUESOS"
+          }
+        },
+        "ba2e1f4a-3583-483f-bd84-2a60a5ccceaf": {
+          "type": "icons",
+          "settings": {
+            "img-1": "shopify:\/\/shop_images\/Group_4_51e1b45c-ac13-4fd5-a41b-e67fa12aff6d.svg",
+            "text-1": "MEJORA LA PRESIóN ARTERIAL"
+          }
+        },
+        "c7c0cfc4-ccd9-43f1-9ef5-507e6c020b1b": {
+          "type": "icons",
+          "settings": {
+            "img-1": "shopify:\/\/shop_images\/icon__stomach.svg",
+            "text-1": "MEJORA tu digestión"
+          }
+        },
+        "19bd4c9e-cd4e-4378-912d-aaa8f416af7b": {
+          "type": "icons",
+          "settings": {
+            "img-1": "shopify:\/\/shop_images\/hair-care-icon_1.svg",
+            "text-1": "Fortalece el cuero cabelludo"
+          }
+        }
+      },
+      "block_order": [
+        "7ddbec7f-a721-4fbe-b1a8-20ce375a0a64",
+        "ba2e1f4a-3583-483f-bd84-2a60a5ccceaf",
+        "c7c0cfc4-ccd9-43f1-9ef5-507e6c020b1b",
+        "19bd4c9e-cd4e-4378-912d-aaa8f416af7b"
+      ],
+      "settings": {
+        "title-icons": "BENEFICIOS"
+      }
+    },
+    "8c02a7fa-565f-4aa5-8bc1-1eb3232986c5": {
+      "type": "list-icons",
+      "blocks": {
+        "70e55c2f-08dd-4ff8-820b-cc0c2fea8960": {
+          "type": "icons",
+          "settings": {
+            "img-1": "shopify:\/\/shop_images\/icon__sun_light.svg",
+            "text-1": "tomalo por la mañana"
+          }
+        },
+        "3c7d011e-064e-4cf3-a976-de303efa1716": {
+          "type": "icons",
+          "settings": {
+            "img-1": "shopify:\/\/shop_images\/Group_24.svg",
+            "text-1": "una cucharita por la mañana"
+          }
+        },
+        "3030680b-a141-437b-bf00-deeb54092762": {
+          "type": "icons",
+          "settings": {
+            "img-1": "shopify:\/\/shop_images\/Group_23.svg",
+            "text-1": "siente mayor energía intradía"
+          }
+        },
+        "65e55604-a78a-4c85-b2ea-b700241c53f5": {
+          "type": "icons",
+          "settings": {
+            "img-1": "shopify:\/\/shop_images\/icon__calendar_days.svg",
+            "text-1": "espera 30 días para empezar a ver cambios"
+          }
+        }
+      },
+      "block_order": [
+        "70e55c2f-08dd-4ff8-820b-cc0c2fea8960",
+        "3c7d011e-064e-4cf3-a976-de303efa1716",
+        "3030680b-a141-437b-bf00-deeb54092762",
+        "65e55604-a78a-4c85-b2ea-b700241c53f5"
+      ],
+      "settings": {
+        "title-icons": "¿NO SABES COMO TOMARLO?"
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "188b2fc1-5d09-40db-bef5-7384a497e171",
+    "52a50a73-80aa-4bfb-acf9-45347365078f",
+    "8c02a7fa-565f-4aa5-8bc1-1eb3232986c5"
   ]
 }
