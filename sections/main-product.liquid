@@ -81,9 +81,9 @@
               </p>
             {%- when 'title' -%}
               <div class="product__title" {{ block.shopify_attributes }}>
-                <h1>{{ product.title | escape }}</h1>
+                <h1 class=" product--title">{{ product.title | escape | upcase }}</h1>
                 <a href="{{ product.url }}" class="product__title">
-                  <h2 class="h1">
+                  <h2 class="h1  product--title">
                     {{ product.title | escape }}
                   </h2>
                 </a>
@@ -98,14 +98,6 @@
                 -%}
               </div>
               {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
-                <div class="product__tax caption rte">
-                  {%- if cart.taxes_included -%}
-                    {{ 'products.product.include_taxes' | t }}
-                  {%- endif -%}
-                  {%- if shop.shipping_policy.body != blank -%}
-                    {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                  {%- endif -%}
-                </div>
               {%- endif -%}
               <div {{ block.shopify_attributes }}>
                 {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
@@ -457,6 +449,104 @@
               {% render 'icon-with-text',
                 block: block
               %}
+
+
+              {%- when 'related_products' -%}
+  {% if product.metafields.product_info.related_products %}
+    {% assign relatedProducts = product.metafields.product_info.related_products.value %}
+    <!-- check at least one recommended product is available --> 
+    {%- liquid 
+      assign has1product = false
+      for prod in relatedProducts
+        if prod.available == true
+          assign has1product = true
+        endif
+      endfor
+    -%}
+    {% if has1product %}
+      <p class="related-products-heading" style="font-size: {{block.settings.heading_font_size}}px; color: {{block.settings.heading_color}};">{{ block.settings.heading }}</p>
+      <div class="related-products" id="related-products-{{ block.id }}">
+        {% for prod in relatedProducts %}
+          {% if prod.available == true %}
+            <a href="{{ prod.url }}" class="related-product" aria-label="{{prod.title}}" title="{{ prod.title }}">
+              <img class="related-product__image" src="{{ prod.images[0] | img_url: '500x' }}" alt="{{ prod.title }}">
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <style>
+        #related-products-{{ block.id }} {
+          text-align: left;
+          display: flex;
+          flex-wrap: wrap;
+        }
+        #related-products-{{ block.id }} .related-product {
+          display: inline-block;
+          width: calc(25% - 0.4rem);
+          margin: 0px 0.4rem 0.8rem 0px;
+          position: relative;
+          border: 1px solid transparent;
+          text-align: center;
+        }
+        #related-products-{{ block.id }} .related-product:last-child {
+          margin-right: 0;
+        }
+        #related-products-{{ block.id }} .related-product__image {
+          width: 100%;
+          max-width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        #related-products-{{ block.id }} .related-product:hover {
+          border-color: {{ block.settings.hover_border_color }};
+        }
+      </style>
+    {% endif %}
+  {% endif %}
+
+  {%- when 'reviews' -%}
+
+    <div class="reviews--bnb">
+      <svg xmlns="http://www.w3.org/2000/svg" width="82" height="17" viewBox="0 0 82 17" fill="none">
+<path d="M8.41268 12.1073L11.3221 13.8669C11.8549 14.1894 12.5069 13.7127 12.3667 13.1098L11.5955 9.80081L14.1684 7.57144C14.6381 7.16483 14.3857 6.39366 13.7688 6.34459L10.3827 6.05715L9.05766 2.93043C8.8193 2.36258 8.00607 2.36258 7.76771 2.93043L6.44271 6.05014L3.0566 6.33758C2.43967 6.38665 2.18729 7.15782 2.65699 7.56443L5.22988 9.7938L4.45872 13.1028C4.3185 13.7057 4.97049 14.1824 5.50329 13.8599L8.41268 12.1073Z" fill="#348158"/>
+<path d="M25.4127 12.1073L28.3221 13.8669C28.8549 14.1894 29.5069 13.7127 29.3667 13.1098L28.5955 9.80081L31.1684 7.57144C31.6381 7.16483 31.3857 6.39366 30.7688 6.34459L27.3827 6.05715L26.0577 2.93043C25.8193 2.36258 25.0061 2.36258 24.7677 2.93043L23.4427 6.05014L20.0566 6.33758C19.4397 6.38665 19.1873 7.15782 19.657 7.56443L22.2299 9.7938L21.4587 13.1028C21.3185 13.7057 21.9705 14.1824 22.5033 13.8599L25.4127 12.1073Z" fill="#348158"/>
+<path d="M42.4127 12.1073L45.3221 13.8669C45.8549 14.1894 46.5069 13.7127 46.3667 13.1098L45.5955 9.80081L48.1684 7.57144C48.6381 7.16483 48.3857 6.39366 47.7688 6.34459L44.3827 6.05715L43.0577 2.93043C42.8193 2.36258 42.0061 2.36258 41.7677 2.93043L40.4427 6.05014L37.0566 6.33758C36.4397 6.38665 36.1873 7.15782 36.657 7.56443L39.2299 9.7938L38.4587 13.1028C38.3185 13.7057 38.9705 14.1824 39.5033 13.8599L42.4127 12.1073Z" fill="#348158"/>
+<path d="M59.4127 12.1073L62.3221 13.8669C62.8549 14.1894 63.5069 13.7127 63.3667 13.1098L62.5955 9.80081L65.1684 7.57144C65.6381 7.16483 65.3857 6.39366 64.7688 6.34459L61.3827 6.05715L60.0577 2.93043C59.8193 2.36258 59.0061 2.36258 58.7677 2.93043L57.4427 6.05014L54.0566 6.33758C53.4397 6.38665 53.1873 7.15782 53.657 7.56443L56.2299 9.7938L55.4587 13.1028C55.3185 13.7057 55.9705 14.1824 56.5033 13.8599L59.4127 12.1073Z" fill="#348158"/>
+<path d="M73.4127 12.1073L76.3221 13.8669C76.8549 14.1894 77.5069 13.7127 77.3667 13.1098L76.5955 9.80081L79.1684 7.57144C79.6381 7.16483 79.3857 6.39366 78.7688 6.34459L75.3827 6.05715L74.0577 2.93043C73.8193 2.36258 73.0061 2.36258 72.7677 2.93043L71.4427 6.05014L68.0566 6.33758C67.4397 6.38665 67.1873 7.15782 67.657 7.56443L70.2299 9.7938L69.4587 13.1028C69.3185 13.7057 69.9705 14.1824 70.5033 13.8599L73.4127 12.1073Z" fill="#348158"/>
+</svg> <p> {{ block.settings.reviews }}</p>
+    </div>
+
+
+    {%- when 'iconos' -%}
+
+      <div class="icons--container">
+        <div class="icons--bnb">
+
+          <div class="icon--bnb">
+            <img src=" {{ block.settings.img-1 | img_url: 'medium' }}" alt=" {{ image.alt }}" width="48" height="48" loading="lazy">
+            <p> {{ block.settings.text-1 }}</p>
+          </div>
+          <div class="icon--bnb">
+            <img src=" {{ block.settings.img-2 | img_url: 'medium' }}" alt=" {{ image.alt }}" width="48" height="48" loading="lazy">
+            <p> {{ block.settings.text-2 }}</p>
+          </div>
+          <div class="icon--bnb">
+            <img src=" {{ block.settings.img-3 | img_url: 'medium' }}" alt=" {{ image.alt }}" width="48" height="48" loading="lazy">
+            <p> {{ block.settings.text-3 }}</p>
+          </div>
+          <div class="icon--bnb">
+            <img src=" {{ block.settings.img-4 | img_url: 'medium' }}" alt=" {{ image.alt }}" width="48" height="48" loading="lazy">
+            <p> {{ block.settings.text-4 }}</p>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+
           {%- endcase -%}
         {%- endfor -%}
         <a href="{{ product.url }}" class="link product__view-details animate-arrow">
@@ -603,6 +693,96 @@
     {
       "type": "@app"
     },
+    {
+  "type": "related_products",
+  "name": "⚡️ Related Products",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Related Products"
+    },
+	{
+      "type": "number",
+      "id": "heading_font_size",
+      "label": "Heading font size (px)",
+      "default": 18
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#121212"
+    },
+    {
+      "type": "color",
+      "id": "hover_border_color",
+      "label": "Border color (hover)",
+      "default": "#121212",
+      "info": "Make color field blank (transparent) if you don't want a border"
+    }
+  ]
+},
+{
+
+"name": "Reviews",
+"type": "reviews",
+"settings": [
+  {
+    "type": "text",
+    "id": "reviews",
+    "label": "Texto"
+  }
+]
+
+},
+{
+  "name": "Iconos",
+  "type": "iconos",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "img-1",
+      "label": "Imagen 1"
+    },
+    {
+      "type": "text",
+      "id": "text-1",
+      "label": "Texto"
+    },
+    {
+      "type": "image_picker",
+      "id": "img-2",
+      "label": "Imagen 2"
+    },
+    {
+      "type": "text",
+      "id": "text-2",
+      "label": "Texto"
+    },
+    {
+      "type": "image_picker",
+      "id": "img-3",
+      "label": "Imagen 3"
+    },
+    {
+      "type": "text",
+      "id": "text-3",
+      "label": "Texto"
+    },
+    {
+      "type": "image_picker",
+      "id": "img-4",
+      "label": "Imagen 4"
+    },
+    {
+      "type": "text",
+      "id": "text-4",
+      "label": "Texto"
+    }
+  ]
+},
     {
       "type": "text",
       "name": "t:sections.main-product.blocks.text.name",

@@ -1,0 +1,53 @@
+<div class="page-width">
+  <div class="icons--bnb">
+    <h1>{{ section.settings['title-icons'] }}</h1>
+  </div>
+  <div class="section-icons">
+    {% for block in section.blocks %}
+      <div class="icon--bnb">
+        <img class="icons-img"
+          src=" {{ block.settings.img-1 | img_url: 'medium' }}"
+          alt=" {{ image.alt }}"
+          loading="lazy">
+        <p>{{ block.settings['text-1'] }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Lista de iconos",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title-icons",
+      "label": "Texto"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Icono",
+      "type": "icons",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img-1",
+          "label": "Imagen"
+        },
+        {
+          "type": "text",
+          "id": "text-1",
+          "label": "texto"
+        }
+      ]
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Lista de iconos"
+    }
+  ]
+}
+{% endschema %}
