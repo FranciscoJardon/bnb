@@ -169,6 +169,68 @@
         "title-icons": "¿NO SABES COMO TOMARLO?"
       }
     },
+    "e4d1e911-e885-4306-a241-7e3c992c9dd0": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17082459390116__e4d1e911-e885-4306-a241-7e3c992c9dd0-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "44c1c787-9aa3-480f-baaa-e2006689f7f6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "d330db61-53b2-4f5c-a42c-e9950b431c7d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "ef5f1911-ab95-4098-87c3-162018fbd4be": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17082459390116__e4d1e911-e885-4306-a241-7e3c992c9dd0-collapsible_row-4",
+        "44c1c787-9aa3-480f-baaa-e2006689f7f6",
+        "d330db61-53b2-4f5c-a42c-e9950b431c7d",
+        "ef5f1911-ab95-4098-87c3-162018fbd4be"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "",
+        "heading": "PREGUNTAS FRECUENTES",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -193,6 +255,7 @@
     "188b2fc1-5d09-40db-bef5-7384a497e171",
     "52a50a73-80aa-4bfb-acf9-45347365078f",
     "8c02a7fa-565f-4aa5-8bc1-1eb3232986c5",
+    "e4d1e911-e885-4306-a241-7e3c992c9dd0",
     "related-products"
   ]
 }
