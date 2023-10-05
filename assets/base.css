@@ -3373,12 +3373,12 @@ h1.product--title {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  margin: 0px 12px;
   width: 100%;
 }
 
 img.icons-img {
   width: 64px;
+  height:64px;
 }
 
 
