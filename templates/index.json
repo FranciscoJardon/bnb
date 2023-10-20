@@ -24,12 +24,12 @@
           "settings": {
             "ImgBannerDesk": "shopify:\/\/shop_images\/7_de81cfe7-ffdc-459f-b8d0-534fce5dc2ec.png",
             "ImgBannerMov": "shopify:\/\/shop_images\/7_3974d465-7afe-434e-9fdf-f09e36b369a4.png",
-            "UrlBanner": "",
-            "TituloBtnBanner": "Ver más",
-            "BtnBackColor": "#000000",
+            "UrlBanner": "shopify:\/\/products\/colageno-hidrolizado",
+            "TituloBtnBanner": "Ver Más",
+            "BtnBackColor": "#348158",
             "BtnTextColor": "#ffffff",
-            "Top": 77,
-            "Left": 82,
+            "Top": 79,
+            "Left": 80,
             "TopTel": 20,
             "LeftTel": 10
           }
