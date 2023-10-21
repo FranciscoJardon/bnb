@@ -134,6 +134,7 @@
         "c7c0cfc4-ccd9-43f1-9ef5-507e6c020b1b",
         "19bd4c9e-cd4e-4378-912d-aaa8f416af7b"
       ],
+      "disabled": true,
       "custom_css": [
         "img.icons-img {height: 64px;}"
       ],
