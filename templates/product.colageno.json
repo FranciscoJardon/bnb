@@ -111,6 +111,44 @@
         "padding_bottom": 36
       }
     },
+    "4aa04836-01c7-42ac-90db-c06a64d02a39": {
+      "type": "list-icons",
+      "blocks": {
+        "4ae37a06-1fce-4cd1-92b1-127458270c54": {
+          "type": "icons",
+          "settings": {
+            "text-1": "FORTALECE TUS HUESOS"
+          }
+        },
+        "3ccc1ece-5457-4931-aaa0-3339b4f210ca": {
+          "type": "icons",
+          "settings": {
+            "text-1": "MEJORA LA PRESIÓN ARTERIAL"
+          }
+        },
+        "46bdb463-3786-4e7a-a4db-7c624adae5e1": {
+          "type": "icons",
+          "settings": {
+            "text-1": ""
+          }
+        },
+        "fa6b76cf-3c4c-4676-8cf4-3292a5a1c13b": {
+          "type": "icons",
+          "settings": {
+            "text-1": ""
+          }
+        }
+      },
+      "block_order": [
+        "4ae37a06-1fce-4cd1-92b1-127458270c54",
+        "3ccc1ece-5457-4931-aaa0-3339b4f210ca",
+        "46bdb463-3786-4e7a-a4db-7c624adae5e1",
+        "fa6b76cf-3c4c-4676-8cf4-3292a5a1c13b"
+      ],
+      "settings": {
+        "title-icons": ""
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -132,6 +170,7 @@
   },
   "order": [
     "main",
+    "4aa04836-01c7-42ac-90db-c06a64d02a39",
     "related-products"
   ]
 }
