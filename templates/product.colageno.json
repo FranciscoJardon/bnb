@@ -149,8 +149,11 @@
         "46bdb463-3786-4e7a-a4db-7c624adae5e1",
         "fa6b76cf-3c4c-4676-8cf4-3292a5a1c13b"
       ],
+      "custom_css": [
+        "img.icons-img {height: 64px;}"
+      ],
       "settings": {
-        "title-icons": ""
+        "title-icons": "BENEFICIOS"
       }
     },
     "related-products": {
