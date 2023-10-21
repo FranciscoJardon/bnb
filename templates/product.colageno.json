@@ -124,18 +124,21 @@
         "3ccc1ece-5457-4931-aaa0-3339b4f210ca": {
           "type": "icons",
           "settings": {
+            "img-1": "shopify:\/\/shop_images\/Group_4_51e1b45c-ac13-4fd5-a41b-e67fa12aff6d.svg",
             "text-1": "MEJORA LA PRESIÓN ARTERIAL"
           }
         },
         "46bdb463-3786-4e7a-a4db-7c624adae5e1": {
           "type": "icons",
           "settings": {
+            "img-1": "shopify:\/\/shop_images\/icon__stomach.svg",
             "text-1": "MEJORA TU DIGESTIÓN"
           }
         },
         "fa6b76cf-3c4c-4676-8cf4-3292a5a1c13b": {
           "type": "icons",
           "settings": {
+            "img-1": "shopify:\/\/shop_images\/hair-care-icon_1.svg",
             "text-1": "FORTALECE EL CUERO CABELLUDO"
           }
         }
