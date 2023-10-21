@@ -180,6 +180,7 @@
         "3030680b-a141-437b-bf00-deeb54092762",
         "65e55604-a78a-4c85-b2ea-b700241c53f5"
       ],
+      "disabled": true,
       "custom_css": [
         "img.icons-img {height: 64px;}"
       ],
