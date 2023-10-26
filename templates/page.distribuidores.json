@@ -248,7 +248,7 @@
         "c113a5cc-28fb-4e62-9bb7-6a5879efe228"
       ],
       "custom_css": [
-        "h1, p {text-align: center !important;}"
+        "h1,p {text-align: center !important;padding:1re;}"
       ],
       "settings": {
         "header-text": "Te explicaremos las posibilidades que tienes en nuestra empresa.",
