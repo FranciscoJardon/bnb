@@ -45,6 +45,7 @@
         },
         "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-quantity_selector-1": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
@@ -59,6 +60,18 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "5f259e6a-c558-4b51-b7eb-0cab9280b589": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "heading_1": "Heading",
+            "icon_2": "return",
+            "heading_2": "Heading",
+            "icon_3": "truck",
+            "heading_3": "Heading"
+          }
         }
       },
       "block_order": [
@@ -68,7 +81,8 @@
         "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-variant_picker-1",
         "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-quantity_selector-1",
         "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-buy_buttons-1",
-        "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-share-1"
+        "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-share-1",
+        "5f259e6a-c558-4b51-b7eb-0cab9280b589"
       ],
       "settings": {
         "product": "paquetes-inicio",
