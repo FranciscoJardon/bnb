@@ -206,6 +206,7 @@
         "acc0ecf3-62dd-4831-ab60-34e7b9fd0b00",
         "a9085b73-7a29-47d5-b879-b5ebbf999ef0"
       ],
+      "disabled": true,
       "settings": {
         "heading-title-plans": "Contamos con un paquetes para iniciar",
         "heading-color": "#348158",
