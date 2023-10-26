@@ -10,6 +10,9 @@
     },
     "24f4d19f-f29d-4f9e-aa76-74a3c38efee8": {
       "type": "titulo-distribuidore",
+      "custom_css": [
+        "h1,h3,p {text-align: center;}"
+      ],
       "settings": {
         "header-text": "¡Hazte distribuidor\/@!",
         "sub-header-text": "¿Te gustaría generar ingresos extra o tienes una tienda\/salón de belleza\/consultorio nutricional?",
@@ -245,7 +248,7 @@
         "c113a5cc-28fb-4e62-9bb7-6a5879efe228"
       ],
       "custom_css": [
-        "h2, h3, p {text-align: center;}"
+
       ],
       "settings": {
         "header-text": "Te explicaremos las posibilidades que tienes en nuestra empresa.",
