@@ -100,69 +100,84 @@
         "padding_bottom": 36
       }
     },
-    "6891a549-e6cb-4e69-b0af-95bbcd205282": {
+    "faedf980-aacd-4900-8951-60fa2f308ddd": {
       "type": "featured-product",
       "blocks": {
-        "template--17082459521188__6891a549-e6cb-4e69-b0af-95bbcd205282-text-1": {
+        "514a52eb-c673-4382-b9e3-b3adec74f2b2": {
           "type": "text",
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
           }
         },
-        "template--17082459521188__6891a549-e6cb-4e69-b0af-95bbcd205282-title-1": {
+        "4c1d14a7-a27d-465a-a878-4fee030b3def": {
           "type": "title",
           "settings": {
             "heading_size": "h1"
           }
         },
-        "template--17082459521188__6891a549-e6cb-4e69-b0af-95bbcd205282-price-1": {
+        "0a621c52-98cb-4734-b392-a5d6249cf7d1": {
           "type": "price",
           "settings": {
           }
         },
-        "template--17082459521188__6891a549-e6cb-4e69-b0af-95bbcd205282-variant_picker-1": {
+        "f71e95d3-b21b-44d3-a521-f94c34591341": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
           }
         },
-        "template--17082459521188__6891a549-e6cb-4e69-b0af-95bbcd205282-quantity_selector-1": {
+        "bc614c76-8c9b-4f9e-a586-f6b97d908f0c": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "El paquete incluye:  4 Colágeno, 1 green, 1 gomitas, 2 crema."
+          }
+        },
+        "dac364c3-f49c-487d-b3e4-63ebfa011ba8": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
-        "template--17082459521188__6891a549-e6cb-4e69-b0af-95bbcd205282-buy_buttons-1": {
+        "8c65ec77-ff6c-444e-964c-64432de0e82c": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
-        "template--17082459521188__6891a549-e6cb-4e69-b0af-95bbcd205282-share-1": {
-          "type": "share",
+        "5687de35-b201-4b25-abac-5facd5dd7a42": {
+          "type": "icon-with-text",
+          "disabled": true,
           "settings": {
-            "share_label": "Share"
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "heading_1": "Heading",
+            "icon_2": "return",
+            "heading_2": "Heading",
+            "icon_3": "truck",
+            "heading_3": "Heading"
           }
         }
       },
       "block_order": [
-        "template--17082459521188__6891a549-e6cb-4e69-b0af-95bbcd205282-text-1",
-        "template--17082459521188__6891a549-e6cb-4e69-b0af-95bbcd205282-title-1",
-        "template--17082459521188__6891a549-e6cb-4e69-b0af-95bbcd205282-price-1",
-        "template--17082459521188__6891a549-e6cb-4e69-b0af-95bbcd205282-variant_picker-1",
-        "template--17082459521188__6891a549-e6cb-4e69-b0af-95bbcd205282-quantity_selector-1",
-        "template--17082459521188__6891a549-e6cb-4e69-b0af-95bbcd205282-buy_buttons-1",
-        "template--17082459521188__6891a549-e6cb-4e69-b0af-95bbcd205282-share-1"
+        "514a52eb-c673-4382-b9e3-b3adec74f2b2",
+        "4c1d14a7-a27d-465a-a878-4fee030b3def",
+        "0a621c52-98cb-4734-b392-a5d6249cf7d1",
+        "f71e95d3-b21b-44d3-a521-f94c34591341",
+        "bc614c76-8c9b-4f9e-a586-f6b97d908f0c",
+        "dac364c3-f49c-487d-b3e4-63ebfa011ba8",
+        "8c65ec77-ff6c-444e-964c-64432de0e82c",
+        "5687de35-b201-4b25-abac-5facd5dd7a42"
       ],
       "settings": {
-        "product": "paquete-distribuidor-inicial",
-        "color_scheme": "",
+        "product": "paquetes-inicio",
+        "color_scheme": "accent-2",
         "secondary_background": false,
         "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "cover",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "none",
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
@@ -257,7 +272,7 @@
     "main",
     "24f4d19f-f29d-4f9e-aa76-74a3c38efee8",
     "850369da-a83e-4d20-8aa0-e9ba8d08e579",
-    "6891a549-e6cb-4e69-b0af-95bbcd205282",
+    "faedf980-aacd-4900-8951-60fa2f308ddd",
     "697eebcb-bc3c-400d-a301-ad190199d4d0",
     "12c09151-f23d-412e-8707-a9d5bd2ad80b"
   ]
