@@ -130,7 +130,7 @@
         "bc614c76-8c9b-4f9e-a586-f6b97d908f0c": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "El paquete incluye:  4 Colágeno, 1 green, 1 gomitas, 2 crema."
+            "custom_liquid": "El paquete incluye: 10 Colágeno, 1 green, 1 gomitas, 1 crema."
           }
         },
         "dac364c3-f49c-487d-b3e4-63ebfa011ba8": {
@@ -222,7 +222,6 @@
         "acc0ecf3-62dd-4831-ab60-34e7b9fd0b00",
         "a9085b73-7a29-47d5-b879-b5ebbf999ef0"
       ],
-      "disabled": true,
       "settings": {
         "heading-title-plans": "Contamos con un paquetes para iniciar",
         "heading-color": "#348158",
