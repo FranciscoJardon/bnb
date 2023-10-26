@@ -63,6 +63,7 @@
         },
         "5f259e6a-c558-4b51-b7eb-0cab9280b589": {
           "type": "icon-with-text",
+          "disabled": true,
           "settings": {
             "layout": "horizontal",
             "icon_1": "heart",
