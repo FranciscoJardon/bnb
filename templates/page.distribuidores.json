@@ -24,11 +24,11 @@
           "settings": {
             "bg-color": "#348158",
             "title-card": "PAQUETE  #1",
-            "invest": "",
-            "price-card": "4 Colágeno",
-            "card-discount": "1 green",
-            "price-percent": "1 gomitas",
-            "card-gain": "2 crema",
+            "invest": "4 Colágeno",
+            "price-card": "1 green",
+            "card-discount": "1 gomitas",
+            "price-percent": "2 crema",
+            "card-gain": "Total de paquete",
             "gain-card": "$3,500",
             "link-text": "Comprar Ahora",
             "link": "shopify:\/\/products\/paquete-distribuidor-inicial"
