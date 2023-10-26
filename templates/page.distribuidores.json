@@ -23,7 +23,7 @@
           "type": "card",
           "settings": {
             "bg-color": "#348158",
-            "title-card": "PAQUETE  #1",
+            "title-card": "PAQUETE INICIO",
             "invest": "4 Colágeno",
             "price-card": "1 green",
             "card-discount": "1 gomitas",
@@ -31,7 +31,7 @@
             "card-gain": "Total de paquete",
             "gain-card": "$3,500",
             "link-text": "Comprar Ahora",
-            "link": "shopify:\/\/products\/paquete-distribuidor-inicial"
+            "link": "shopify:\/\/products\/paquetes-inicio"
           }
         },
         "a9085b73-7a29-47d5-b879-b5ebbf999ef0": {
