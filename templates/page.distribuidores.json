@@ -43,6 +43,12 @@
             "picker_type": "button"
           }
         },
+        "d7787bcc-8841-470e-ab98-b4e2581879b1": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "El paquete incluye:  4 Colágeno, 1 green, 1 gomitas, 2 crema."
+          }
+        },
         "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-quantity_selector-1": {
           "type": "quantity_selector",
           "disabled": true,
@@ -53,12 +59,6 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false
-          }
-        },
-        "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-share-1": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
           }
         },
         "5f259e6a-c558-4b51-b7eb-0cab9280b589": {
@@ -79,9 +79,9 @@
         "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-title-1",
         "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-price-1",
         "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-variant_picker-1",
+        "d7787bcc-8841-470e-ab98-b4e2581879b1",
         "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-quantity_selector-1",
         "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-buy_buttons-1",
-        "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-share-1",
         "5f259e6a-c558-4b51-b7eb-0cab9280b589"
       ],
       "settings": {
