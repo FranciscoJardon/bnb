@@ -244,6 +244,9 @@
         "e8688817-6f25-4449-87c5-0ff56523a4f3",
         "c113a5cc-28fb-4e62-9bb7-6a5879efe228"
       ],
+      "custom_css": [
+        "h2{text-align:ce;}"
+      ],
       "settings": {
         "header-text": "Te explicaremos las posibilidades que tienes en nuestra empresa.",
         "sub-header-text": "Tenemos 3 esquemas que te animarán a concretar todas tus metas, somos la puerta de entrada a una mejor calidad de vida y que logres tu independencia económica.",
