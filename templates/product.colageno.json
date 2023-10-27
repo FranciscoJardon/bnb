@@ -54,7 +54,7 @@
         "d049a24b-4549-4941-a6ed-01153d9159a7": {
           "type": "related_products",
           "settings": {
-            "heading": "Related Products",
+            "heading": "Otros paquetes",
             "heading_font_size": 18,
             "heading_color": "#121212",
             "hover_border_color": "#121212"
