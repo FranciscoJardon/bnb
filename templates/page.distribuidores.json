@@ -33,6 +33,12 @@
           "settings": {
           }
         },
+        "35f4ce04-97d1-4c49-9913-6e245f59a515": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/dayjs@1.11.7\/dayjs.min.js\"><\/script>\n                    {% if product.available %}\n                <div id=\"delivery-date-estimator\" class=\"delivery-estimate instock-pulse\">\n                  <span class=\"icon--pulsing\"><\/span>\n                  <p> Tu pedido llegaría entre <span id=\"earliest-day\"> <\/span> y <span id=\"latest-day\"> <\/span>  <\/p>\n                  <\/div>\n\n                  {% endif %}\n                  \n                  <script>\n                    document.getElementById(\"earliest-day\").innerHTML = dayjs().add(2, 'days').format(\"MMM D\");\n                    document.getElementById(\"latest-day\").innerHTML = dayjs().add(3, 'days').format(\"MMM D\");\n                  <\/script>\n\n<style>\n\n.delivery-estimate{\ndisplay:flex;\ngap:5px;\nalign-items:center; \n}\n\n.icon--pulsing {\n  position: relative;\n  width: 13px;\n  height: 20px;\n  margin-right: 10px;\n}\n\n.icon--pulsing:after,\n.icon--pulsing:before {\n  background: #54c63a;\n  width: 10px;\n  height: 10px;\n  border-radius: 10px;\n  position: absolute;\n  left: 0;\n  top: 0;\n  content: \"\";\n  margin: 5px;\n}\n\n@keyframes inventory-pulse {\n  0% {\n    opacity: 0.5;\n  }\n  to {\n    transform: scale(2.5);\n    opacity: 0;\n  }\n}\n\n.icon--pulsing:before {\n  animation: inventory-pulse 2s linear infinite;\n}\n<\/style>"
+          }
+        },
         "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-variant_picker-1": {
           "type": "variant_picker",
           "settings": {
@@ -71,23 +77,17 @@
             "image_3": "shopify:\/\/shop_images\/personas-01.webp",
             "heading_3": "VENTAS DIRECTAS"
           }
-        },
-        "35f4ce04-97d1-4c49-9913-6e245f59a515": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/dayjs@1.11.7\/dayjs.min.js\"><\/script>\n                    {% if product.available %}\n                <div id=\"delivery-date-estimator\" class=\"delivery-estimate instock-pulse\">\n                  <span class=\"icon--pulsing\"><\/span>\n                  <p> Tu pedido llegaría entre <span id=\"earliest-day\"> <\/span> y <span id=\"latest-day\"> <\/span>  <\/p>\n                  <\/div>\n\n                  {% endif %}\n                  \n                  <script>\n                    document.getElementById(\"earliest-day\").innerHTML = dayjs().add(2, 'days').format(\"MMM D\");\n                    document.getElementById(\"latest-day\").innerHTML = dayjs().add(3, 'days').format(\"MMM D\");\n                  <\/script>\n\n<style>\n\n.delivery-estimate{\ndisplay:flex;\ngap:5px;\nalign-items:center; \n}\n\n.icon--pulsing {\n  position: relative;\n  width: 13px;\n  height: 20px;\n  margin-right: 10px;\n}\n\n.icon--pulsing:after,\n.icon--pulsing:before {\n  background: #54c63a;\n  width: 10px;\n  height: 10px;\n  border-radius: 10px;\n  position: absolute;\n  left: 0;\n  top: 0;\n  content: \"\";\n  margin: 5px;\n}\n\n@keyframes inventory-pulse {\n  0% {\n    opacity: 0.5;\n  }\n  to {\n    transform: scale(2.5);\n    opacity: 0;\n  }\n}\n\n.icon--pulsing:before {\n  animation: inventory-pulse 2s linear infinite;\n}\n<\/style>"
-          }
         }
       },
       "block_order": [
         "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-title-1",
         "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-price-1",
+        "35f4ce04-97d1-4c49-9913-6e245f59a515",
         "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-variant_picker-1",
         "d7787bcc-8841-470e-ab98-b4e2581879b1",
         "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-quantity_selector-1",
         "template--17082459521188__850369da-a83e-4d20-8aa0-e9ba8d08e579-buy_buttons-1",
-        "5f259e6a-c558-4b51-b7eb-0cab9280b589",
-        "35f4ce04-97d1-4c49-9913-6e245f59a515"
+        "5f259e6a-c558-4b51-b7eb-0cab9280b589"
       ],
       "settings": {
         "product": "paquetes-inicio",
