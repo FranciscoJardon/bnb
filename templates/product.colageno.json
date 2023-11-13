@@ -77,6 +77,13 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "c13681e8-fffe-432f-b4ad-b8618fa51f13": {
+          "type": "text",
+          "settings": {
+            "text": "Recuerda que tenemos 3 x 2    en este producto",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -91,7 +98,8 @@
         "d049a24b-4549-4941-a6ed-01153d9159a7",
         "description",
         "bfd3322b-f834-4ac9-a3c3-0369fb379e10",
-        "share"
+        "share",
+        "c13681e8-fffe-432f-b4ad-b8618fa51f13"
       ],
       "custom_css": [
         ".payment-icons {display: flex; max-width: 450px; justify-content: center; margin-top: 0px; gap: 20px;}"
