@@ -110,8 +110,8 @@
         "148de915-fd6b-4078-879a-b851fc93f773": {
           "type": "text",
           "settings": {
-            "text": "Recuerda que tenemos 3 x 2    en este producto",
-            "text_style": "body"
+            "text": "<strong>Recuerda que tenemos 3 x 2    en este producto<\/strong>",
+            "text_style": "subtitle"
           }
         }
       },
