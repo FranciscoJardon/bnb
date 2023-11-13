@@ -244,6 +244,9 @@
         "c8d82fc9-9de3-4ee5-92dc-4614eb008b11",
         "825571c0-465d-4589-98b2-fe036fc577fc"
       ],
+      "custom_css": [
+        ".payment-icons {display: flex; max-width: 450px; justify-content: center; margin-top: 0px; gap: 20px;}"
+      ],
       "settings": {
         "product": "jugo-green",
         "color_scheme": "accent-2",
