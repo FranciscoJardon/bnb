@@ -67,17 +67,10 @@
     "1295b8bc-7f3c-4b2c-bd01-85673276cbe5": {
       "type": "featured-product",
       "blocks": {
-        "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-title-1": {
           "type": "title",
           "settings": {
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-price-1": {
@@ -123,7 +116,6 @@
         }
       },
       "block_order": [
-        "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-text-1",
         "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-title-1",
         "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-price-1",
         "1025b700-3f24-4f18-b4be-da3b53ad2554",
