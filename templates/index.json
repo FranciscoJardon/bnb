@@ -10,9 +10,9 @@
             "ImgBannerMov": "shopify:\/\/shop_images\/BANNERS-BNB_NOV_CEL-2.png",
             "UrlBanner": "shopify:\/\/products\/colageno-hidrolizado",
             "TituloBtnBanner": "Ver Más",
-            "BtnBackColor": "#348158",
+            "BtnBackColor": "#dd1d1d",
             "BtnTextColor": "#ffffff",
-            "Top": 79,
+            "Top": 95,
             "Left": 80,
             "TopTel": 89,
             "LeftTel": 10
