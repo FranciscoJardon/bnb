@@ -88,7 +88,7 @@
         "1025b700-3f24-4f18-b4be-da3b53ad2554": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/dayjs@1.11.7\/dayjs.min.js\"><\/script>\n                    {% if product.available %}\n                <div id=\"delivery-date-estimator\" class=\"delivery-estimate instock-pulse\">\n                  <span class=\"icon--pulsing\"><\/span>\n                  <p> Tu pedido llegaría entre <span id=\"earliest-day\"> <\/span> y <span id=\"latest-day\"> <\/span>  <\/p>\n                  <\/div>\n\n                  {% endif %}\n                  \n                  <script>\n                    document.getElementById(\"earliest-day\").innerHTML = dayjs().add(2, 'days').format(\"MMM D\");\n                    document.getElementById(\"latest-day\").innerHTML = dayjs().add(3, 'days').format(\"MMM D\");\n                  <\/script>\n\n<style>\n\n.delivery-estimate{\ndisplay:flex;\ngap:5px;\nalign-items:center; \n}\n\n.icon--pulsing {\n  position: relative;\n  width: 13px;\n  height: 20px;\n  margin-right: 10px;\n}\n\n.icon--pulsing:after,\n.icon--pulsing:before {\n  background: #54c63a;\n  width: 10px;\n  height: 10px;\n  border-radius: 10px;\n  position: absolute;\n  left: 0;\n  top: 0;\n  content: \"\";\n  margin: 5px;\n}\n\n@keyframes inventory-pulse {\n  0% {\n    opacity: 0.5;\n  }\n  to {\n    transform: scale(2.5);\n    opacity: 0;\n  }\n}\n\n.icon--pulsing:before {\n  animation: inventory-pulse 2s linear infinite;\n}\n<\/style>"
           }
         },
         "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-variant_picker-1": {
