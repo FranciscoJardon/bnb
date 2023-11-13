@@ -108,12 +108,6 @@
             "show_dynamic_checkout": false
           }
         },
-        "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-share-1": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "605ca224-c3b7-42e1-afcd-414247041e77": {
           "type": "custom_liquid",
           "settings": {
@@ -129,8 +123,10 @@
         "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-variant_picker-1",
         "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-quantity_selector-1",
         "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-buy_buttons-1",
-        "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-share-1",
         "605ca224-c3b7-42e1-afcd-414247041e77"
+      ],
+      "custom_css": [
+        ".payment-icons {display: flex; max-width: 450px; justify-content: center; margin-top: 0px; gap: 20px;}"
       ],
       "settings": {
         "product": "colageno-hidrolizado",
