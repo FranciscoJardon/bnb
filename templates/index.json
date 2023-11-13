@@ -3,6 +3,21 @@
     "01751188-9a20-4d1f-a7a7-20e864c23a1b": {
       "type": "Banner",
       "blocks": {
+        "d4efab63-136e-4794-b1fa-21f23a99f5fb": {
+          "type": "image",
+          "settings": {
+            "ImgBannerDesk": "shopify:\/\/shop_images\/7_de81cfe7-ffdc-459f-b8d0-534fce5dc2ec.png",
+            "ImgBannerMov": "shopify:\/\/shop_images\/7_3974d465-7afe-434e-9fdf-f09e36b369a4.png",
+            "UrlBanner": "shopify:\/\/products\/colageno-hidrolizado",
+            "TituloBtnBanner": "Ver Más",
+            "BtnBackColor": "#348158",
+            "BtnTextColor": "#ffffff",
+            "Top": 79,
+            "Left": 80,
+            "TopTel": 89,
+            "LeftTel": 10
+          }
+        },
         "e2c79c41-10e9-4c8e-976b-d323ef98b55e": {
           "type": "image",
           "disabled": true,
@@ -19,23 +34,9 @@
             "LeftTel": 50
           }
         },
-        "d4efab63-136e-4794-b1fa-21f23a99f5fb": {
-          "type": "image",
-          "settings": {
-            "ImgBannerDesk": "shopify:\/\/shop_images\/7_de81cfe7-ffdc-459f-b8d0-534fce5dc2ec.png",
-            "ImgBannerMov": "shopify:\/\/shop_images\/7_3974d465-7afe-434e-9fdf-f09e36b369a4.png",
-            "UrlBanner": "shopify:\/\/products\/colageno-hidrolizado",
-            "TituloBtnBanner": "Ver Más",
-            "BtnBackColor": "#348158",
-            "BtnTextColor": "#ffffff",
-            "Top": 79,
-            "Left": 80,
-            "TopTel": 89,
-            "LeftTel": 10
-          }
-        },
         "49668964-3659-4c56-9cd9-0bb0cf3b077e": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "ImgBannerDesk": "shopify:\/\/shop_images\/5_9f11bfa1-fb47-4f8c-b722-527a41758ce5.png",
             "ImgBannerMov": "shopify:\/\/shop_images\/5_1.png",
@@ -51,8 +52,8 @@
         }
       },
       "block_order": [
-        "e2c79c41-10e9-4c8e-976b-d323ef98b55e",
         "d4efab63-136e-4794-b1fa-21f23a99f5fb",
+        "e2c79c41-10e9-4c8e-976b-d323ef98b55e",
         "49668964-3659-4c56-9cd9-0bb0cf3b077e"
       ],
       "settings": {
