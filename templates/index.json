@@ -85,6 +85,12 @@
           "settings": {
           }
         },
+        "1025b700-3f24-4f18-b4be-da3b53ad2554": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
         "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-variant_picker-1": {
           "type": "variant_picker",
           "settings": {
@@ -113,6 +119,7 @@
         "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-text-1",
         "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-title-1",
         "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-price-1",
+        "1025b700-3f24-4f18-b4be-da3b53ad2554",
         "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-variant_picker-1",
         "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-quantity_selector-1",
         "template--17082459455652__1295b8bc-7f3c-4b2c-bd01-85673276cbe5-buy_buttons-1",
@@ -120,17 +127,17 @@
       ],
       "settings": {
         "product": "colageno-hidrolizado",
-        "color_scheme": "",
+        "color_scheme": "accent-2",
         "secondary_background": false,
-        "media_size": "medium",
+        "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "c4db6efc-ac11-4b64-821e-2ac7857fd071": {
