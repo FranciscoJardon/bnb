@@ -8,6 +8,31 @@
         "padding_bottom": 36
       }
     },
+    "bd0abe78-da5f-4c0c-aea9-68a4a3b19c0b": {
+      "type": "Banner",
+      "blocks": {
+        "96c0c365-aae3-4ebb-9b6e-13d7e7db0c47": {
+          "type": "image",
+          "settings": {
+            "ImgBannerDesk": "shopify:\/\/shop_images\/BANNERS-BNB_NOV.png",
+            "ImgBannerMov": "shopify:\/\/shop_images\/BANNERS-BNB_NOV_CEL.png",
+            "UrlBanner": "",
+            "TituloBtnBanner": "",
+            "BtnBackColor": "#000000",
+            "BtnTextColor": "#ffffff",
+            "Top": 100,
+            "Left": 100,
+            "TopTel": 100,
+            "LeftTel": 100
+          }
+        }
+      },
+      "block_order": [
+        "96c0c365-aae3-4ebb-9b6e-13d7e7db0c47"
+      ],
+      "settings": {
+      }
+    },
     "24f4d19f-f29d-4f9e-aa76-74a3c38efee8": {
       "type": "titulo-distribuidore",
       "custom_css": [
@@ -269,6 +294,7 @@
   },
   "order": [
     "main",
+    "bd0abe78-da5f-4c0c-aea9-68a4a3b19c0b",
     "24f4d19f-f29d-4f9e-aa76-74a3c38efee8",
     "850369da-a83e-4d20-8aa0-e9ba8d08e579",
     "faedf980-aacd-4900-8951-60fa2f308ddd",
