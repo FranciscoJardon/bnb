@@ -351,7 +351,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "html,p,h2,h1,h3 {font-weight: 700 !important;}"
+      "html,p,h2,h1,h3 {font-weight: 700 !important;}",
+      ".drawer {z-index:200000 ;}"
     ]
   }
 }
