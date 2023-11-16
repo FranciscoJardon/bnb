@@ -123,7 +123,7 @@
       ],
       "custom_css": [
         ".payment-icons {display: flex; max-width: 450px; justify-content: center; margin-top: 0px; gap: 20px;}",
-        ".price__sale{font-size:2.4rem; font-weight:600;}"
+        ".price__sale {font-size: 2.4rem; font-weight: 600; display:flex; align-items:center; justify-items:center;}"
       ],
       "settings": {
         "product": "paquetes-inicio",
