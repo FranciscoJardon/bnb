@@ -123,7 +123,7 @@
       ],
       "custom_css": [
         ".payment-icons {display: flex; max-width: 450px; justify-content: center; margin-top: 0px; gap: 20px;}",
-        ".price__sale {font-size: 2.4rem; font-weight: 600; display:flex; align-items:center; justify-items:center;}"
+        ".price__sale {font-size: 2.4rem; font-weight: 600;}"
       ],
       "settings": {
         "product": "paquetes-inicio",
@@ -209,7 +209,8 @@
         "02127ece-5d52-49c7-9def-02f3a34f616e"
       ],
       "custom_css": [
-        ".payment-icons {display: flex; max-width: 450px; justify-content: center; margin-top: 0px; gap: 20px;}"
+        ".payment-icons {display: flex; max-width: 450px; justify-content: center; margin-top: 0px; gap: 20px;}",
+        ".price__sale {font-size: 2.4rem; font-weight: 600;}"
       ],
       "settings": {
         "product": "paquete-distribuidor-inicial",
