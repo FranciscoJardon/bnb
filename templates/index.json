@@ -158,6 +158,7 @@
         "605ca224-c3b7-42e1-afcd-414247041e77",
         "148de915-fd6b-4078-879a-b851fc93f773"
       ],
+      "disabled": true,
       "custom_css": [
         ".payment-icons {display: flex; max-width: 450px; justify-content: center; margin-top: 0px; gap: 20px;}"
       ],
@@ -277,6 +278,7 @@
         "c8d82fc9-9de3-4ee5-92dc-4614eb008b11",
         "825571c0-465d-4589-98b2-fe036fc577fc"
       ],
+      "disabled": true,
       "custom_css": [
         ".payment-icons {display: flex; max-width: 450px; justify-content: center; margin-top: 0px; gap: 20px;}"
       ],
