@@ -303,7 +303,7 @@
         "template--17082459455652__51b75dd9-0331-4b68-bf79-5b9fb6a6d83a-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Nuestros Paquetes<\/strong>",
+            "heading": "<strong>Nuestros Productos<\/strong>",
             "heading_size": "h1"
           }
         }
@@ -328,9 +328,9 @@
         "description": "",
         "show_description": false,
         "description_style": "uppercase",
-        "collection": "colagenos",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "collection": "principales",
+        "products_to_show": 25,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "outline",
@@ -384,7 +384,7 @@
         "template--17082459455652__baaae831-1105-4de8-9de0-9b8b8b3e9dcc-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Todos Nuestros Productos",
+            "heading": "Nuestros Kits",
             "heading_size": "h1"
           }
         },
@@ -430,22 +430,22 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "todos-lo-productos",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "collection": "kit",
+        "products_to_show": 25,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "accent-2",
         "image_ratio": "portrait",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": true,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 36
       }
