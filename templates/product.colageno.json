@@ -20,6 +20,11 @@
           "settings": {
           }
         },
+        "description_7giJEk": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "e856725f-889d-49ac-8d5e-32f90ea13ead": {
           "type": "custom_liquid",
           "settings": {
@@ -60,11 +65,6 @@
             "hover_border_color": "#121212"
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "bfd3322b-f834-4ac9-a3c3-0369fb379e10": {
           "type": "custom_liquid",
           "settings": {
@@ -77,29 +77,21 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "c13681e8-fffe-432f-b4ad-b8618fa51f13": {
-          "type": "text",
-          "settings": {
-            "text": "Recuerda que tenemos 3 x 2    en este producto",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "price",
+        "description_7giJEk",
         "e856725f-889d-49ac-8d5e-32f90ea13ead",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "2efc5501-f443-4405-b9a1-b38315809810",
         "d049a24b-4549-4941-a6ed-01153d9159a7",
-        "description",
         "bfd3322b-f834-4ac9-a3c3-0369fb379e10",
-        "share",
-        "c13681e8-fffe-432f-b4ad-b8618fa51f13"
+        "share"
       ],
       "custom_css": [
         ".payment-icons {display: flex; max-width: 450px; justify-content: center; margin-top: 0px; gap: 20px;}"
