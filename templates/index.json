@@ -295,33 +295,10 @@
         "padding_bottom": 0
       }
     },
-    "51b75dd9-0331-4b68-bf79-5b9fb6a6d83a": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17082459455652__51b75dd9-0331-4b68-bf79-5b9fb6a6d83a-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Nuestros Productos<\/strong>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--17082459455652__51b75dd9-0331-4b68-bf79-5b9fb6a6d83a-heading-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "cd3b283b-85cc-4485-93a3-ef79241f1619": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
+        "title": "Nuestros Productos",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -342,8 +319,8 @@
         "enable_quick_add": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 60
       }
     },
     "dd349e4b-e8c6-4806-bf6a-b7f2ea543dd9": {
@@ -487,7 +464,6 @@
     "c4db6efc-ac11-4b64-821e-2ac7857fd071",
     "6f8ed4f7-ad59-4996-b26e-c8fddbd4f1c0",
     "28c96800-bd09-462f-8da9-2ea4bdf30826",
-    "51b75dd9-0331-4b68-bf79-5b9fb6a6d83a",
     "cd3b283b-85cc-4485-93a3-ef79241f1619",
     "dd349e4b-e8c6-4806-bf6a-b7f2ea543dd9",
     "ffd8b401-dfc0-4aa2-b55d-f90daca0ff7d",
