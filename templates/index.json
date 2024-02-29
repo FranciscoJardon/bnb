@@ -324,6 +324,10 @@
         "8b0a9e29-a9b8-46f1-adae-487e4459a0f3",
         "31c8f445-7041-4245-8b99-6b1dcbe6c836"
       ],
+      "custom_css": [
+        ".ContendorTextos {display: none;}",
+        ".Galeria {background-color: white;}"
+      ],
       "settings": {
       }
     },
