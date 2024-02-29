@@ -1,6 +1,6 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/BNB_Logo_-05_d0bb6e3c-15ca-4708-876b-3f49dc6f3e50.png",
+    "logo": "shopify:\/\/shop_images\/logo-02.png",
     "type_header_font": "montserrat_n4",
     "heading_scale": 110,
     "type_body_font": "prompt_n4",
@@ -352,7 +352,7 @@
   "platform_customizations": {
     "custom_css": [
       "html,p,h2,h1,h3 {font-weight: 700 !important;}",
-      ".drawer {z-index:200000 ;}"
+      ".drawer {z-index: 200000;}"
     ]
   }
 }
