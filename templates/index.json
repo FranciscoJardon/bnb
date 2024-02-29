@@ -3,10 +3,28 @@
     "slideshow_8KH7PQ": {
       "type": "slideshow",
       "blocks": {
-        "slide_K9NERP": {
+        "slide_TDAaCp": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/beauty-portrait-soft-skin-female-model-with-natu-2023-11-27-05-22-18-utc.jpg",
+            "heading": "Transforma tu Belleza desde Adentro",
+            "heading_size": "h1",
+            "subheading": "Fortalece tus Huesos, Mejora tu Presión Arterial, Mejora tu Digestión y Fortalece tu Cabello",
+            "button_label": "Ver Productos",
+            "link": "https:\/\/bnbcorpmx.com\/collections\/todos-los-productos",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_K9NERP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-producto_copia_a7dcb544-0d74-4a5a-93f0-c831ab6c84ad.jpg",
             "heading": "Conviértete en Distribuidor",
             "heading_size": "h1",
             "subheading": "Obtén +30% en ganancias + Plan de Crecimiento + Contenido Gratuito",
@@ -20,29 +38,11 @@
             "color_scheme": "accent-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_bkK8Gx": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-producto_copia_a7dcb544-0d74-4a5a-93f0-c831ab6c84ad.jpg",
-            "heading": "Transforma tu Belleza desde Adentro",
-            "heading_size": "h1",
-            "subheading": "Fortalece tus Huesos, Mejora tu Presión Arterial, Mejora tu Digestión y Fortalece tu Cabello",
-            "button_label": "Ver productos",
-            "link": "https:\/\/bnbcorpmx.com\/collections\/todos-los-productos",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "slide_K9NERP",
-        "slide_bkK8Gx"
+        "slide_TDAaCp",
+        "slide_K9NERP"
       ],
       "settings": {
         "layout": "full_bleed",
