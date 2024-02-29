@@ -338,6 +338,48 @@
       ],
       "settings": {
       }
+    },
+    "collage_9Hj6hV": {
+      "type": "collage",
+      "blocks": {
+        "image_RMdhVh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/comparativo.png"
+          }
+        },
+        "product_xtYPKL": {
+          "type": "product",
+          "settings": {
+            "product": "colageno-hidrolizado",
+            "second_image": false
+          }
+        },
+        "collection_CXDLVt": {
+          "type": "collection",
+          "settings": {
+            "collection": "kit"
+          }
+        }
+      },
+      "block_order": [
+        "image_RMdhVh",
+        "product_xtYPKL",
+        "collection_CXDLVt"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "Beneficios",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "accent-1",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -347,6 +389,7 @@
     "dd349e4b-e8c6-4806-bf6a-b7f2ea543dd9",
     "ffd8b401-dfc0-4aa2-b55d-f90daca0ff7d",
     "e97ccc62-1e62-43bf-80f3-34fc1a56b0ce",
-    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68"
+    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68",
+    "collage_9Hj6hV"
   ]
 }
