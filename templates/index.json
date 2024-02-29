@@ -297,6 +297,9 @@
     },
     "cd3b283b-85cc-4485-93a3-ef79241f1619": {
       "type": "featured-collection",
+      "custom_css": [
+        ".title, .title-wrapper-with-link {text-align: center;}"
+      ],
       "settings": {
         "title": "Nuestros Productos",
         "heading_size": "h1",
