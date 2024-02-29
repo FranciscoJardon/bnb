@@ -314,31 +314,6 @@
       "settings": {
       }
     },
-    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68": {
-      "type": "Banner",
-      "blocks": {
-        "68d800f9-bd09-45c6-ac98-4fc7c2b1f687": {
-          "type": "image",
-          "settings": {
-            "ImgBannerDesk": "shopify:\/\/shop_images\/Group_19.svg",
-            "ImgBannerMov": "shopify:\/\/shop_images\/Group_17_2_87ea9196-be45-473e-9663-12212512cd42.svg",
-            "UrlBanner": "shopify:\/\/pages\/distribuidores",
-            "TituloBtnBanner": "Ver más",
-            "BtnBackColor": "#003e53",
-            "BtnTextColor": "#ffffff",
-            "Top": 88,
-            "Left": 34,
-            "TopTel": 90,
-            "LeftTel": 1
-          }
-        }
-      },
-      "block_order": [
-        "68d800f9-bd09-45c6-ac98-4fc7c2b1f687"
-      ],
-      "settings": {
-      }
-    },
     "collage_9Hj6hV": {
       "type": "collage",
       "blocks": {
@@ -380,6 +355,31 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68": {
+      "type": "Banner",
+      "blocks": {
+        "68d800f9-bd09-45c6-ac98-4fc7c2b1f687": {
+          "type": "image",
+          "settings": {
+            "ImgBannerDesk": "shopify:\/\/shop_images\/Group_19.svg",
+            "ImgBannerMov": "shopify:\/\/shop_images\/Group_17_2_87ea9196-be45-473e-9663-12212512cd42.svg",
+            "UrlBanner": "shopify:\/\/pages\/distribuidores",
+            "TituloBtnBanner": "Ver más",
+            "BtnBackColor": "#003e53",
+            "BtnTextColor": "#ffffff",
+            "Top": 88,
+            "Left": 34,
+            "TopTel": 90,
+            "LeftTel": 1
+          }
+        }
+      },
+      "block_order": [
+        "68d800f9-bd09-45c6-ac98-4fc7c2b1f687"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -389,7 +389,7 @@
     "dd349e4b-e8c6-4806-bf6a-b7f2ea543dd9",
     "ffd8b401-dfc0-4aa2-b55d-f90daca0ff7d",
     "e97ccc62-1e62-43bf-80f3-34fc1a56b0ce",
-    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68",
-    "collage_9Hj6hV"
+    "collage_9Hj6hV",
+    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68"
   ]
 }
