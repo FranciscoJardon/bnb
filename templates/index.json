@@ -89,6 +89,9 @@
         "e2c79c41-10e9-4c8e-976b-d323ef98b55e",
         "49668964-3659-4c56-9cd9-0bb0cf3b077e"
       ],
+      "custom_css": [
+        ".SwiperBanner {width: 100%; background-color: white !important;}"
+      ],
       "settings": {
       }
     },
@@ -298,7 +301,7 @@
     "cd3b283b-85cc-4485-93a3-ef79241f1619": {
       "type": "featured-collection",
       "custom_css": [
-        ".title, .title-wrapper-with-link {text-align: center;}"
+        ".title,.title-wrapper-with-link {text-align: center;}"
       ],
       "settings": {
         "title": "Nuestros Productos",
@@ -322,7 +325,7 @@
         "enable_quick_add": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 40,
+        "padding_top": 60,
         "padding_bottom": 60
       }
     },
