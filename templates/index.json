@@ -21,6 +21,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_697Nyw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_copia_f89616df-8a15-414f-90f3-73f0f53ce073.jpg",
+            "heading": "Bienestar . Nutrición . Belleza",
+            "heading_size": "h1",
+            "subheading": "Enamórate de todos sus beneficios y forma parte de nuestra comunidad y estilo de vida.",
+            "button_label": "Ver Productos",
+            "link": "https:\/\/bnbcorpmx.com\/collections\/todos-los-productos",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_K9NERP": {
           "type": "slide",
           "settings": {
@@ -42,6 +60,7 @@
       },
       "block_order": [
         "slide_TDAaCp",
+        "slide_697Nyw",
         "slide_K9NERP"
       ],
       "settings": {
