@@ -94,6 +94,7 @@
     },
     "48f39272-2d21-4b01-9b60-eb154d57a97c": {
       "type": "Beneficios",
+      "disabled": true,
       "settings": {
       }
     },
@@ -198,6 +199,7 @@
         "0c429cb8-62bd-4f9a-9c7c-528b57259246",
         "8fdf01b6-40e5-47b0-980a-a0aca66e4ba9"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -209,11 +211,7 @@
     },
     "6f8ed4f7-ad59-4996-b26e-c8fddbd4f1c0": {
       "type": "Ingredientes",
-      "settings": {
-      }
-    },
-    "ffd8b401-dfc0-4aa2-b55d-f90daca0ff7d": {
-      "type": "Historia",
+      "disabled": true,
       "settings": {
       }
     },
@@ -348,36 +346,6 @@
         "padding_bottom": 36
       }
     },
-    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68": {
-      "type": "Banner",
-      "blocks": {
-        "68d800f9-bd09-45c6-ac98-4fc7c2b1f687": {
-          "type": "image",
-          "settings": {
-            "ImgBannerDesk": "shopify:\/\/shop_images\/Group_19.svg",
-            "ImgBannerMov": "shopify:\/\/shop_images\/Group_17_2_87ea9196-be45-473e-9663-12212512cd42.svg",
-            "UrlBanner": "shopify:\/\/pages\/distribuidores",
-            "TituloBtnBanner": "Ver más",
-            "BtnBackColor": "#003e53",
-            "BtnTextColor": "#ffffff",
-            "Top": 88,
-            "Left": 34,
-            "TopTel": 90,
-            "LeftTel": 1
-          }
-        }
-      },
-      "block_order": [
-        "68d800f9-bd09-45c6-ac98-4fc7c2b1f687"
-      ],
-      "settings": {
-      }
-    },
-    "0a48354b-d02e-4777-8802-928b522760c2": {
-      "type": "linea",
-      "settings": {
-      }
-    },
     "baaae831-1105-4de8-9de0-9b8b8b3e9dcc": {
       "type": "rich-text",
       "blocks": {
@@ -416,10 +384,10 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-2",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 48
       }
     },
     "dd349e4b-e8c6-4806-bf6a-b7f2ea543dd9": {
@@ -437,7 +405,7 @@
         "show_view_all": true,
         "view_all_style": "outline",
         "enable_desktop_slider": true,
-        "color_scheme": "accent-2",
+        "color_scheme": "accent-1",
         "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -448,6 +416,11 @@
         "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 36
+      }
+    },
+    "ffd8b401-dfc0-4aa2-b55d-f90daca0ff7d": {
+      "type": "Historia",
+      "settings": {
       }
     },
     "e97ccc62-1e62-43bf-80f3-34fc1a56b0ce": {
@@ -521,6 +494,31 @@
       ],
       "settings": {
       }
+    },
+    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68": {
+      "type": "Banner",
+      "blocks": {
+        "68d800f9-bd09-45c6-ac98-4fc7c2b1f687": {
+          "type": "image",
+          "settings": {
+            "ImgBannerDesk": "shopify:\/\/shop_images\/Group_19.svg",
+            "ImgBannerMov": "shopify:\/\/shop_images\/Group_17_2_87ea9196-be45-473e-9663-12212512cd42.svg",
+            "UrlBanner": "shopify:\/\/pages\/distribuidores",
+            "TituloBtnBanner": "Ver más",
+            "BtnBackColor": "#003e53",
+            "BtnTextColor": "#ffffff",
+            "Top": 88,
+            "Left": 34,
+            "TopTel": 90,
+            "LeftTel": 1
+          }
+        }
+      },
+      "block_order": [
+        "68d800f9-bd09-45c6-ac98-4fc7c2b1f687"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -529,14 +527,13 @@
     "1295b8bc-7f3c-4b2c-bd01-85673276cbe5",
     "c4db6efc-ac11-4b64-821e-2ac7857fd071",
     "6f8ed4f7-ad59-4996-b26e-c8fddbd4f1c0",
-    "ffd8b401-dfc0-4aa2-b55d-f90daca0ff7d",
     "28c96800-bd09-462f-8da9-2ea4bdf30826",
     "51b75dd9-0331-4b68-bf79-5b9fb6a6d83a",
     "cd3b283b-85cc-4485-93a3-ef79241f1619",
-    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68",
-    "0a48354b-d02e-4777-8802-928b522760c2",
     "baaae831-1105-4de8-9de0-9b8b8b3e9dcc",
     "dd349e4b-e8c6-4806-bf6a-b7f2ea543dd9",
-    "e97ccc62-1e62-43bf-80f3-34fc1a56b0ce"
+    "ffd8b401-dfc0-4aa2-b55d-f90daca0ff7d",
+    "e97ccc62-1e62-43bf-80f3-34fc1a56b0ce",
+    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68"
   ]
 }
