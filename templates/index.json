@@ -346,54 +346,10 @@
         "padding_bottom": 36
       }
     },
-    "baaae831-1105-4de8-9de0-9b8b8b3e9dcc": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17082459455652__baaae831-1105-4de8-9de0-9b8b8b3e9dcc-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Nuestros Kits",
-            "heading_size": "h1"
-          }
-        },
-        "template--17082459455652__baaae831-1105-4de8-9de0-9b8b8b3e9dcc-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--17082459455652__baaae831-1105-4de8-9de0-9b8b8b3e9dcc-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17082459455652__baaae831-1105-4de8-9de0-9b8b8b3e9dcc-heading-1",
-        "template--17082459455652__baaae831-1105-4de8-9de0-9b8b8b3e9dcc-text-1",
-        "template--17082459455652__baaae831-1105-4de8-9de0-9b8b8b3e9dcc-button-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "accent-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 48
-      }
-    },
     "dd349e4b-e8c6-4806-bf6a-b7f2ea543dd9": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
+        "title": "Nuestros Kits",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -414,7 +370,7 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 0,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -530,7 +486,6 @@
     "28c96800-bd09-462f-8da9-2ea4bdf30826",
     "51b75dd9-0331-4b68-bf79-5b9fb6a6d83a",
     "cd3b283b-85cc-4485-93a3-ef79241f1619",
-    "baaae831-1105-4de8-9de0-9b8b8b3e9dcc",
     "dd349e4b-e8c6-4806-bf6a-b7f2ea543dd9",
     "ffd8b401-dfc0-4aa2-b55d-f90daca0ff7d",
     "e97ccc62-1e62-43bf-80f3-34fc1a56b0ce",
