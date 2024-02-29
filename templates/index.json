@@ -3,13 +3,13 @@
     "slideshow_8KH7PQ": {
       "type": "slideshow",
       "blocks": {
-        "slide_TDAaCp": {
+        "slide_697Nyw": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/beauty-portrait-soft-skin-female-model-with-natu-2023-11-27-05-22-18-utc.jpg",
-            "heading": "Transforma tu Belleza desde Adentro",
+            "image": "shopify:\/\/shop_images\/banner_copia_f89616df-8a15-414f-90f3-73f0f53ce073.jpg",
+            "heading": "Bienestar . Nutrición . Belleza",
             "heading_size": "h1",
-            "subheading": "Fortalece tus Huesos, Mejora tu Presión Arterial, Mejora tu Digestión y Fortalece tu Cabello",
+            "subheading": "Enamórate de todos sus beneficios y forma parte de nuestra comunidad y estilo de vida.",
             "button_label": "Ver Productos",
             "link": "https:\/\/bnbcorpmx.com\/collections\/todos-los-productos",
             "button_style_secondary": false,
@@ -21,13 +21,13 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_697Nyw": {
+        "slide_TDAaCp": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_copia_f89616df-8a15-414f-90f3-73f0f53ce073.jpg",
-            "heading": "Bienestar . Nutrición . Belleza",
+            "image": "shopify:\/\/shop_images\/beauty-portrait-soft-skin-female-model-with-natu-2023-11-27-05-22-18-utc.jpg",
+            "heading": "Transforma tu Belleza desde Adentro",
             "heading_size": "h1",
-            "subheading": "Enamórate de todos sus beneficios y forma parte de nuestra comunidad y estilo de vida.",
+            "subheading": "Fortalece tus Huesos, Mejora tu Presión Arterial, Mejora tu Digestión y Fortalece tu Cabello",
             "button_label": "Ver Productos",
             "link": "https:\/\/bnbcorpmx.com\/collections\/todos-los-productos",
             "button_style_secondary": false,
@@ -59,14 +59,14 @@
         }
       },
       "block_order": [
-        "slide_TDAaCp",
         "slide_697Nyw",
+        "slide_TDAaCp",
         "slide_K9NERP"
       ],
       "custom_css": [
         ".slideshow__text h2 {font-size: 30px !important;}",
         ".banner__text p {font-weight: normal !important;}",
-        ".banner__buttons a{text-transform:uppercase;}"
+        ".banner__buttons a {text-transform: uppercase;}"
       ],
       "settings": {
         "layout": "full_bleed",
