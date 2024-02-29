@@ -353,7 +353,56 @@
       "block_order": [
         "68d800f9-bd09-45c6-ac98-4fc7c2b1f687"
       ],
+      "disabled": true,
       "settings": {
+      }
+    },
+    "image_banner_xCChbE": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_PrYTMJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Quieres ser Distribuid@r?",
+            "heading_size": "h1"
+          }
+        },
+        "text_36BBqU": {
+          "type": "text",
+          "settings": {
+            "text": "Obtén +30% en ganancias + Plan de Crecimiento + Contenido Gratuito",
+            "text_style": "body"
+          }
+        },
+        "buttons_Bn3Ap4": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Conoce más",
+            "button_link_1": "https:\/\/bnbcorpmx.com\/pages\/distribuidores",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PrYTMJ",
+        "text_36BBqU",
+        "buttons_Bn3Ap4"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner-producto_copia_a7dcb544-0d74-4a5a-93f0-c831ab6c84ad.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -365,6 +414,7 @@
     "custom_liquid_fDP6i8",
     "custom_liquid_gd8ekP",
     "e97ccc62-1e62-43bf-80f3-34fc1a56b0ce",
-    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68"
+    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68",
+    "image_banner_xCChbE"
   ]
 }
