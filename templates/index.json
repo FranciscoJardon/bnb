@@ -258,6 +258,62 @@
       ],
       "settings": {
       }
+    },
+    "slideshow_8KH7PQ": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_K9NERP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/beauty-portrait-soft-skin-female-model-with-natu-2023-11-27-05-22-18-utc.jpg",
+            "heading": "Conviértete en Distribuidor",
+            "heading_size": "h1",
+            "subheading": "Obtén +30% en ganancias + Plan de Crecimiento + Contenido Gratuito",
+            "button_label": "Hazte Distribuidor",
+            "link": "https:\/\/bnbcorpmx.com\/pages\/distribuidores",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_bkK8Gx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_de81cfe7-ffdc-459f-b8d0-534fce5dc2ec.png",
+            "heading": "Transforma tu Belleza desde Adentro",
+            "heading_size": "h1",
+            "subheading": "Fortalece tus Huesos, Mejora tu Presión Arterial, Mejora tu Digestión y Fortalece tu Cabello",
+            "button_label": "Ver productos",
+            "link": "https:\/\/bnbcorpmx.com\/collections\/todos-los-productos",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_K9NERP",
+        "slide_bkK8Gx"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -266,6 +322,7 @@
     "dd349e4b-e8c6-4806-bf6a-b7f2ea543dd9",
     "ffd8b401-dfc0-4aa2-b55d-f90daca0ff7d",
     "e97ccc62-1e62-43bf-80f3-34fc1a56b0ce",
-    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68"
+    "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68",
+    "slideshow_8KH7PQ"
   ]
 }
