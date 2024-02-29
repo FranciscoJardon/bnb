@@ -142,18 +142,18 @@
           "button": "#789978",
           "button_label": "#123005",
           "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
+          "shadow": "#123005"
         }
       },
       "accent-2": {
         "settings": {
-          "background": "#e6f2f0",
+          "background": "#ffffff",
           "background_gradient": "",
-          "text": "#003e53",
-          "button": "#348158",
-          "button_label": "#348158",
-          "secondary_button_label": "#348158",
-          "shadow": "#121212"
+          "text": "#123005",
+          "button": "#789978",
+          "button_label": "#789978",
+          "secondary_button_label": "#789978",
+          "shadow": "#123005"
         }
       }
     }
