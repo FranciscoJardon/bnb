@@ -234,7 +234,16 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 12
+      }
+    },
+    "custom_liquid_fDP6i8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<center><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0606\/0641\/5012\/files\/comparativo.png?v=1709245219\"><\/center>",
+        "color_scheme": "accent-1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "ffd8b401-dfc0-4aa2-b55d-f90daca0ff7d": {
@@ -314,48 +323,6 @@
       "settings": {
       }
     },
-    "collage_9Hj6hV": {
-      "type": "collage",
-      "blocks": {
-        "image_RMdhVh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/comparativo.png"
-          }
-        },
-        "product_xtYPKL": {
-          "type": "product",
-          "settings": {
-            "product": "colageno-hidrolizado",
-            "second_image": false
-          }
-        },
-        "collection_CXDLVt": {
-          "type": "collection",
-          "settings": {
-            "collection": "kit"
-          }
-        }
-      },
-      "block_order": [
-        "image_RMdhVh",
-        "product_xtYPKL",
-        "collection_CXDLVt"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "heading": "Beneficios",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "none",
-        "color_scheme": "accent-1",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68": {
       "type": "Banner",
       "blocks": {
@@ -387,9 +354,9 @@
     "01751188-9a20-4d1f-a7a7-20e864c23a1b",
     "cd3b283b-85cc-4485-93a3-ef79241f1619",
     "dd349e4b-e8c6-4806-bf6a-b7f2ea543dd9",
+    "custom_liquid_fDP6i8",
     "ffd8b401-dfc0-4aa2-b55d-f90daca0ff7d",
     "e97ccc62-1e62-43bf-80f3-34fc1a56b0ce",
-    "collage_9Hj6hV",
     "e773cc3d-2fd9-4c02-90a1-2d1abc7f8e68"
   ]
 }
