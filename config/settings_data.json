@@ -104,9 +104,9 @@
     "color_schemes": {
       "background-1": {
         "settings": {
-          "background": "#123005",
+          "background": "#fff",
           "background_gradient": "",
-          "text": "#fff",
+          "text": "#123005",
           "button": "#789978",
           "button_label": "#ffffff",
           "secondary_button_label": "#789978",
