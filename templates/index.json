@@ -240,7 +240,7 @@
     "custom_liquid_fDP6i8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<center><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0606\/0641\/5012\/files\/comparativo.png?v=1709245219\"><\/center>",
+        "custom_liquid": "<center>\n<h2>Creado en los mejores laboratorios y avalado por COFEPRIS<\/h2>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0606\/0641\/5012\/files\/comparativo.png?v=1709245219\"><\/center>",
         "color_scheme": "accent-1",
         "padding_top": 40,
         "padding_bottom": 52
