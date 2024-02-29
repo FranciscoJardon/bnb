@@ -5,6 +5,7 @@
     "heading_scale": 110,
     "type_body_font": "prompt_n4",
     "page_width": 1500,
+    "animations_reveal_on_scroll": true,
     "card_text_alignment": "center",
     "collection_card_style": "standard",
     "collection_card_shadow_opacity": 0,
@@ -103,13 +104,13 @@
     "color_schemes": {
       "background-1": {
         "settings": {
-          "background": "#e6f2f0",
+          "background": "#123005",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#348158",
+          "text": "#fff",
+          "button": "#789978",
           "button_label": "#ffffff",
-          "secondary_button_label": "#348158",
-          "shadow": "#121212"
+          "secondary_button_label": "#789978",
+          "shadow": "#123005"
         }
       },
       "background-2": {
