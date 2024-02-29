@@ -283,7 +283,7 @@
         "slide_bkK8Gx": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7_de81cfe7-ffdc-459f-b8d0-534fce5dc2ec.png",
+            "image": "shopify:\/\/shop_images\/banner-producto_copia_a7dcb544-0d74-4a5a-93f0-c831ab6c84ad.jpg",
             "heading": "Transforma tu Belleza desde Adentro",
             "heading_size": "h1",
             "subheading": "Fortalece tus Huesos, Mejora tu Presión Arterial, Mejora tu Digestión y Fortalece tu Cabello",
@@ -303,16 +303,15 @@
         "slide_K9NERP",
         "slide_bkK8Gx"
       ],
-      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
+        "slider_visual": "dots",
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": "Información de nuestra marca"
       }
     }
   },
