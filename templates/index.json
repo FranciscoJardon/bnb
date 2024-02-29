@@ -65,7 +65,8 @@
       ],
       "custom_css": [
         ".slideshow__text h2 {font-size: 30px !important;}",
-        ".banner__text p{font-weight:normal !important;}"
+        ".banner__text p {font-weight: normal !important;}",
+        ".banner__buttons a{text-transform:uppercase;}"
       ],
       "settings": {
         "layout": "full_bleed",
