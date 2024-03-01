@@ -394,7 +394,8 @@
       "custom_css": [
         ".slideshow__text h2 {font-size: 30px !important;}",
         ".banner__text p {font-weight: normal !important;}",
-        ".banner__buttons a {text-transform: uppercase;}"
+        ".banner__buttons a {text-transform: uppercase;}",
+        ".media>img {object-position: center right;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner-producto_copia_a7dcb544-0d74-4a5a-93f0-c831ab6c84ad.jpg",
