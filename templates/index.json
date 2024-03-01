@@ -64,6 +64,7 @@
         "slide_K9NERP"
       ],
       "custom_css": [
+        ".media>img {object-fit: cover; object-position: center left; transition: opacity .4s cubic-bezier(.25,.46,.45,.94);}",
         ".slideshow__text h2 {font-size: 30px !important;}",
         ".banner__text p {font-weight: normal !important;}",
         ".banner__buttons a {text-transform: uppercase;}"
