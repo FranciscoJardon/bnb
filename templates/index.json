@@ -64,7 +64,7 @@
         "slide_K9NERP"
       ],
       "custom_css": [
-        ".media>img {object-fit: cover; object-position: center left; transition: opacity .4s cubic-bezier(.25,.46,.45,.94);}",
+        ".media > img {object-fit: cover; object-position: center left; transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);}",
         ".slideshow__text h2 {font-size: 30px !important;}",
         ".banner__text p {font-weight: normal !important;}",
         ".banner__buttons a {text-transform: uppercase;}"
@@ -210,7 +210,8 @@
     "dd349e4b-e8c6-4806-bf6a-b7f2ea543dd9": {
       "type": "featured-collection",
       "custom_css": [
-        ".title-wrapper--no-top-margin > .title {margin-top: 0; text-align: center;}"
+        ".title-wrapper--no-top-margin > .title {margin-top: 0; text-align: center;}",
+        ".card__media .media img {height: 100%; object-fit: contain; object-position: center center; width: 100%; background-color: #133006;}"
       ],
       "settings": {
         "title": "Nuestros Kits",
