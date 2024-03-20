@@ -129,6 +129,7 @@
         "9202dd78-702f-41ef-9e6f-8fa18cf9d653",
         "5f259e6a-c558-4b51-b7eb-0cab9280b589"
       ],
+      "disabled": true,
       "custom_css": [
         ".payment-icons {display: flex; max-width: 450px; justify-content: center; margin-top: 0px; gap: 20px;}",
         ".price__sale {font-size: 2.4rem; font-weight: 600;}"
