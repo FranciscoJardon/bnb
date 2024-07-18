@@ -12,6 +12,24 @@
     "slideshow_8KH7PQ": {
       "type": "slideshow",
       "blocks": {
+        "slide_deLgXY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_Bnb_3x2_af290619-b4f0-48e0-9238-a7a0ba1b6574.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_697Nyw": {
           "type": "slide",
           "settings": {
@@ -65,31 +83,13 @@
             "color_scheme": "accent-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_deLgXY": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_Bnb_3x2_af290619-b4f0-48e0-9238-a7a0ba1b6574.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_deLgXY",
         "slide_697Nyw",
         "slide_TDAaCp",
-        "slide_K9NERP",
-        "slide_deLgXY"
+        "slide_K9NERP"
       ],
       "custom_css": [
         ".media > img {object-fit: cover; object-position: center left; transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);}",
