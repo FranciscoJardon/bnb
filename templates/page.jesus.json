@@ -11,10 +11,245 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_XEqmTj": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/cooming_soon_colageno_BNB_X_BARRALATES.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_UTQbQU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JFxCKq": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em><strong>Movimiento + Suplementación = un ritual de amor propio.</strong></em>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JFxCKq"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 32
+      }
+    },
+    "titulo_distribuidore_ctNaYU": {
+      "type": "titulo-distribuidore",
+      "name": "Header text",
+      "settings": {
+        "header-text": "",
+        "sub-header-text": "",
+        "descripicion-text": ""
+      }
+    },
+    "featured_product_HkrX7Q": {
+      "type": "featured-product",
+      "blocks": {
+        "text_fgGEWA": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_YrfaBH": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_GA9kjC": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_iFQhL6": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_TURBm7": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_JYxGPT": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "share_PHbiip": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_fgGEWA",
+        "title_YrfaBH",
+        "price_GA9kjC",
+        "variant_picker_iFQhL6",
+        "quantity_selector_TURBm7",
+        "buy_buttons_JYxGPT",
+        "share_PHbiip"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "colageno-hidrolizado",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_UNCBP8": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Db3WaM": {
+          "type": "column",
+          "settings": {
+            "title": "Belleza desde dentro",
+            "text": "<p>Piel y cabello saludables.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JJj4LV": {
+          "type": "column",
+          "settings": {
+            "title": "Bienestar físico",
+            "text": "<p>Movilidad y articulaciones.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Uznn37": {
+          "type": "column",
+          "settings": {
+            "title": "Amor propio diario",
+            "text": "<p>Ritual consciente que te conecta contigo.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kByFp3": {
+          "type": "column",
+          "settings": {
+            "title": "Exclusividad",
+            "text": "<p>Empaque y campaña especial edición limitada.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Db3WaM",
+        "column_JJj4LV",
+        "column_Uznn37",
+        "column_kByFp3"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_7H78EN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AYbhnW": {
+          "type": "heading",
+          "settings": {
+            "heading": "“No se trata de cambiarte, se trata de elegirte, de nutrirte y de habitar tu cuerpo como tu hogar más sagrado.”",
+            "heading_size": "h2"
+          }
+        },
+        "text_4kEnHV": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_cqdh3e": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AYbhnW",
+        "text_4kEnHV",
+        "button_cqdh3e"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 24
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_XEqmTj",
+    "rich_text_UTQbQU",
+    "titulo_distribuidore_ctNaYU",
+    "featured_product_HkrX7Q",
+    "multicolumn_UNCBP8",
+    "rich_text_7H78EN"
   ]
 }
