@@ -257,6 +257,31 @@
         "padding_top": 40,
         "padding_bottom": 24
       }
+    },
+    "banner_cpzdN9": {
+      "type": "Banner",
+      "blocks": {
+        "image_zRDzBx": {
+          "type": "image",
+          "settings": {
+            "ImgBannerDesk": "shopify://shop_images/Diseno_sin_titulo_14.jpg",
+            "ImgBannerMov": "shopify://shop_images/3_2.jpg",
+            "UrlBanner": "",
+            "TituloBtnBanner": "",
+            "BtnBackColor": "#000000",
+            "BtnTextColor": "#ffffff",
+            "Top": 20,
+            "Left": 10,
+            "TopTel": 20,
+            "LeftTel": 10
+          }
+        }
+      },
+      "block_order": [
+        "image_zRDzBx"
+      ],
+      "name": "SliderBanner",
+      "settings": {}
     }
   },
   "order": [
@@ -267,6 +292,7 @@
     "featured_product_HkrX7Q",
     "multicolumn_UNCBP8",
     "anuncios_barra_waeeBk",
-    "rich_text_7H78EN"
+    "rich_text_7H78EN",
+    "banner_cpzdN9"
   ]
 }
