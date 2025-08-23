@@ -181,6 +181,9 @@
         "column_Uznn37",
         "column_kByFp3"
       ],
+      "custom_css": [
+        ".multicolumn-card__info {BACKGROUND-COLOR: #e0aec8; COLOR: #425431;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
@@ -205,7 +208,7 @@
       "settings": {
         "text": "ENVÍO GRATIS A PARTIR DE $1,000",
         "colorBackground": "#789978",
-        "colorText": "#fff",
+        "colorText": "#ffffff",
         "link": ""
       }
     },
