@@ -358,6 +358,17 @@
       ],
       "name": "SliderBanner",
       "settings": {}
+    },
+    "contact_form_BKjU3A": {
+      "type": "contact-form",
+      "name": "t:sections.contact-form.presets.name",
+      "settings": {
+        "heading": "Si quieres convertirte en distribuidora, déjanos tus datos para contactarte",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -372,6 +383,7 @@
     "rich_text_7H78EN",
     "banner_GBJYQe",
     "rich_text_zMBVFa",
-    "banner_qGNPxG"
+    "banner_qGNPxG",
+    "contact_form_BKjU3A"
   ]
 }
