@@ -199,6 +199,16 @@
         "padding_bottom": 36
       }
     },
+    "anuncios_barra_waeeBk": {
+      "type": "anuncios-barra",
+      "name": "Texto en movimiento",
+      "settings": {
+        "text": "ENVÍO GRATIS A PARTIR DE $1,000",
+        "colorBackground": "#789978",
+        "colorText": "#fff",
+        "link": ""
+      }
+    },
     "rich_text_7H78EN": {
       "type": "rich-text",
       "blocks": {
@@ -250,6 +260,7 @@
     "titulo_distribuidore_ctNaYU",
     "featured_product_HkrX7Q",
     "multicolumn_UNCBP8",
+    "anuncios_barra_waeeBk",
     "rich_text_7H78EN"
   ]
 }
