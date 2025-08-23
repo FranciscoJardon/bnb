@@ -28,7 +28,7 @@
             "UrlBanner": "",
             "TituloBtnBanner": "",
             "BtnBackColor": "#000000",
-            "BtnTextColor": "#ffffff",
+            "BtnTextColor": "#005b2a",
             "Top": 20,
             "Left": 10,
             "TopTel": 20,
@@ -257,6 +257,7 @@
         "text_4kEnHV",
         "button_cqdh3e"
       ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
