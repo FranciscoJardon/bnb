@@ -324,14 +324,14 @@
           "type": "image",
           "settings": {
             "ImgBannerDesk": "shopify://shop_images/Maria_Lau_1.jpg",
-            "ImgBannerMov": "shopify://shop_images/Diseno_sin_titulo_16.jpg",
+            "ImgBannerMov": "shopify://shop_images/Diseno_sin_titulo_17.jpg",
             "UrlBanner": "",
             "TituloBtnBanner": "Ver más",
             "BtnBackColor": "#ffffff",
             "BtnTextColor": "#ffffff",
             "Top": 100,
             "Left": 10,
-            "TopTel": 100,
+            "TopTel": 1,
             "LeftTel": 100
           }
         }
