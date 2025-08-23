@@ -119,6 +119,9 @@
         "buy_buttons_JYxGPT",
         "share_PHbiip"
       ],
+      "custom_css": [
+        "button#ProductSubmitButton-template--24332577734820__featured_product_HkrX7Q {BACKGROUND-COLOR: #6972AD;}"
+      ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
         "product": "colageno-hidrolizado",
@@ -182,7 +185,7 @@
         "column_kByFp3"
       ],
       "custom_css": [
-        ".multicolumn-card__info {BACKGROUND-COLOR: #e0aec8; COLOR: #425431;}"
+        ".multicolumn-card__info {background-color: #e0aec8; color: #425431;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
