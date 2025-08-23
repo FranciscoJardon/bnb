@@ -64,7 +64,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 56,
-        "padding_bottom": 32
+        "padding_bottom": 16
       }
     },
     "titulo_distribuidore_ctNaYU": {
@@ -292,6 +292,55 @@
       ],
       "name": "SliderBanner",
       "settings": {}
+    },
+    "rich_text_zMBVFa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WgBaf7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lo que opinán",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WgBaf7"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "banner_qGNPxG": {
+      "type": "Banner",
+      "blocks": {
+        "image_iQbctd": {
+          "type": "image",
+          "settings": {
+            "ImgBannerDesk": "shopify://shop_images/Maria_Lau_1.jpg",
+            "ImgBannerMov": "shopify://shop_images/Diseno_sin_titulo_16.jpg",
+            "UrlBanner": "",
+            "TituloBtnBanner": "Ver más",
+            "BtnBackColor": "#ffffff",
+            "BtnTextColor": "#ffffff",
+            "Top": 100,
+            "Left": 10,
+            "TopTel": 100,
+            "LeftTel": 100
+          }
+        }
+      },
+      "block_order": [
+        "image_iQbctd"
+      ],
+      "name": "SliderBanner",
+      "settings": {}
     }
   },
   "order": [
@@ -303,6 +352,8 @@
     "multicolumn_UNCBP8",
     "anuncios_barra_waeeBk",
     "rich_text_7H78EN",
-    "banner_GBJYQe"
+    "banner_GBJYQe",
+    "rich_text_zMBVFa",
+    "banner_qGNPxG"
   ]
 }
