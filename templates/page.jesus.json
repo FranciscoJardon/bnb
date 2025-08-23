@@ -17,23 +17,31 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_XEqmTj": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/cooming_soon_colageno_BNB_X_BARRALATES.png",
-        "image_2": "shopify://shop_images/ChatGPT_Image_23_ago_2025_11_27_29.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
+    "banner_geMiJQ": {
+      "type": "Banner",
+      "blocks": {
+        "image_FPH6JD": {
+          "type": "image",
+          "settings": {
+            "ImgBannerDesk": "shopify://shop_images/cooming_soon_colageno_BNB_X_BARRALATES.png",
+            "ImgBannerMov": "shopify://shop_images/ChatGPT_Image_23_ago_2025_11_27_29.png",
+            "UrlBanner": "",
+            "TituloBtnBanner": "",
+            "BtnBackColor": "#000000",
+            "BtnTextColor": "#ffffff",
+            "Top": 20,
+            "Left": 10,
+            "TopTel": 20,
+            "LeftTel": 10
+          }
+        }
+      },
+      "block_order": [
+        "image_FPH6JD"
+      ],
+      "custom_css": [],
+      "name": "SliderBanner",
+      "settings": {}
     },
     "rich_text_UTQbQU": {
       "type": "rich-text",
@@ -258,35 +266,16 @@
         "padding_top": 40,
         "padding_bottom": 24
       }
-    },
-    "image_banner_tm8UfK": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Diseno_sin_titulo_14.jpg",
-        "image_2": "shopify://shop_images/3_2.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
     "main",
-    "image_banner_XEqmTj",
+    "banner_geMiJQ",
     "rich_text_UTQbQU",
     "titulo_distribuidore_ctNaYU",
     "featured_product_HkrX7Q",
     "multicolumn_UNCBP8",
     "anuncios_barra_waeeBk",
-    "rich_text_7H78EN",
-    "image_banner_tm8UfK"
+    "rich_text_7H78EN"
   ]
 }
