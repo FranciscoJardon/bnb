@@ -24,15 +24,15 @@
           "type": "image",
           "settings": {
             "ImgBannerDesk": "shopify://shop_images/cooming_soon_colageno_BNB_X_BARRALATES.png",
-            "ImgBannerMov": "shopify://shop_images/ChatGPT_Image_23_ago_2025_11_27_29.png",
+            "ImgBannerMov": "shopify://shop_images/ChatGPT_Image_23_ago_2025_11_55_31.png",
             "UrlBanner": "",
             "TituloBtnBanner": "",
-            "BtnBackColor": "#000000",
+            "BtnBackColor": "#ffffff",
             "BtnTextColor": "#005b2a",
-            "Top": 20,
-            "Left": 10,
-            "TopTel": 20,
-            "LeftTel": 10
+            "Top": 72,
+            "Left": 100,
+            "TopTel": 1,
+            "LeftTel": 1
           }
         }
       },
@@ -267,6 +267,31 @@
         "padding_top": 40,
         "padding_bottom": 24
       }
+    },
+    "banner_GBJYQe": {
+      "type": "Banner",
+      "blocks": {
+        "image_wPeUww": {
+          "type": "image",
+          "settings": {
+            "ImgBannerDesk": "shopify://shop_images/Diseno_sin_titulo_14.jpg",
+            "ImgBannerMov": "shopify://shop_images/3_2.jpg",
+            "UrlBanner": "",
+            "TituloBtnBanner": "",
+            "BtnBackColor": "#6972ac",
+            "BtnTextColor": "#6972ac",
+            "Top": 20,
+            "Left": 10,
+            "TopTel": 100,
+            "LeftTel": 10
+          }
+        }
+      },
+      "block_order": [
+        "image_wPeUww"
+      ],
+      "name": "SliderBanner",
+      "settings": {}
     }
   },
   "order": [
@@ -277,6 +302,7 @@
     "featured_product_HkrX7Q",
     "multicolumn_UNCBP8",
     "anuncios_barra_waeeBk",
-    "rich_text_7H78EN"
+    "rich_text_7H78EN",
+    "banner_GBJYQe"
   ]
 }
