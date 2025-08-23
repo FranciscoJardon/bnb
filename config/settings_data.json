@@ -1,6 +1,15 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/logo-02.png",
+    "logo": "shopify://shop_images/logo-02.png",
     "type_header_font": "montserrat_n4",
     "heading_scale": 110,
     "type_body_font": "prompt_n4",
@@ -12,12 +21,12 @@
     "collection_card_shadow_blur": 0,
     "badge_position": "top left",
     "sale_badge_color_scheme": "background-1",
-    "social_facebook_link": "https:\/\/www.facebook.com\/profile.php?id=100093553364421",
-    "social_instagram_link": "https:\/\/instagram.com\/bnbcorp?utm_medium=copy_link",
-    "social_tiktok_link": "http:\/\/tiktok.com\/@bnbcorp",
+    "social_facebook_link": "https://www.facebook.com/profile.php?id=100093553364421",
+    "social_instagram_link": "https://instagram.com/bnbcorp?utm_medium=copy_link",
+    "social_tiktok_link": "http://tiktok.com/@bnbcorp",
     "currency_code_enabled": false,
     "cart_type": "drawer",
-    "checkout_logo_image": "shopify:\/\/shop_images\/BNB_Logo_-05.jpg",
+    "checkout_logo_image": "shopify://shop_images/BNB_Logo_-05.jpg",
     "checkout_sidebar_background_color": "#348158",
     "sections": {
       "announcement-bar": {
@@ -43,8 +52,7 @@
           "announcement-bar-0",
           "b36b86bd-dfa5-4a58-948c-2143a8223b9d"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -71,7 +79,7 @@
             "disabled": true,
             "settings": {
               "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.</p>"
             }
           }
         },
@@ -90,15 +98,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -154,6 +159,17 @@
           "button": "#789978",
           "button_label": "#789978",
           "secondary_button_label": "#789978",
+          "shadow": "#123005"
+        }
+      },
+      "scheme-3bdf1f22-422e-4ba0-84ff-72cb1549a2a8": {
+        "settings": {
+          "background": "#dfaec8",
+          "background_gradient": "",
+          "text": "#123005",
+          "button": "#6972ac",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#6972ac",
           "shadow": "#123005"
         }
       }
@@ -315,7 +331,7 @@
       "sale_badge_color_scheme": "accent-2",
       "sold_out_badge_color_scheme": "inverse",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",

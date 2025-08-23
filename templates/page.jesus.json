@@ -359,13 +359,104 @@
       "name": "SliderBanner",
       "settings": {}
     },
+    "featured_collection_J4wMkU": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Otros productos que te pueden interesar",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "principales",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "contact_form_BKjU3A": {
       "type": "contact-form",
       "name": "t:sections.contact-form.presets.name",
       "settings": {
-        "heading": "Si quieres convertirte en distribuidora, déjanos tus datos para contactarte",
+        "heading": "Conviértete en Embajadora ☝️  Súmate a la colaboración BNB x Barralates y recibe tu kit de bienvenida.",
         "heading_size": "h1",
-        "color_scheme": "",
+        "color_scheme": "scheme-3bdf1f22-422e-4ba0-84ff-72cb1549a2a8",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_LbqWgE": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_UBrPVB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Qué necesito para ser embajadora?",
+            "icon": "check_mark",
+            "row_content": "<p>Solo registrarte, recibir tu kit y compartir tu experiencia en redes sociales.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FFq3gA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cuánto puedo ganar?",
+            "icon": "check_mark",
+            "row_content": "<p>Entre un 10% y 15% de comisión por cada venta realizada con tu código.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Ex9ygq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Qué incluye el kit premium?",
+            "icon": "check_mark",
+            "row_content": "<p>Tu producto mensual, materiales de promoción y detalles exclusivos de la campaña.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fCx8zN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Debo tener muchas seguidoras?",
+            "icon": "check_mark",
+            "row_content": "<p>No, lo importante es tu autenticidad y constancia al compartir tu experiencia.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_UBrPVB",
+        "collapsible_row_FFq3gA",
+        "collapsible_row_Ex9ygq",
+        "collapsible_row_fCx8zN"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "❓ Preguntas Frecuentes",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-3bdf1f22-422e-4ba0-84ff-72cb1549a2a8",
+        "container_color_scheme": "scheme-3bdf1f22-422e-4ba0-84ff-72cb1549a2a8",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -384,6 +475,8 @@
     "banner_GBJYQe",
     "rich_text_zMBVFa",
     "banner_qGNPxG",
-    "contact_form_BKjU3A"
+    "featured_collection_J4wMkU",
+    "contact_form_BKjU3A",
+    "collapsible_content_LbqWgE"
   ]
 }
