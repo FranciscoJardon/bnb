@@ -224,6 +224,23 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_7X7hfR": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/primero.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "image_banner_RPi6nA": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
@@ -408,6 +425,23 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_6hTeyq": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Nuestras_embajadoras.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "image_banner_7z9cMJ": {
       "type": "image-banner",
       "blocks": {
@@ -569,6 +603,7 @@
     "custom_liquid_r97j4M",
     "multicolumn_UNCBP8",
     "image_banner_RPi6nA",
+    "image_banner_7X7hfR",
     "anuncios_barra_waeeBk",
     "rich_text_7H78EN",
     "banner_GBJYQe",
@@ -576,6 +611,7 @@
     "custom_liquid_GbMjGx",
     "banner_qGNPxG",
     "featured_collection_J4wMkU",
+    "image_banner_6hTeyq",
     "image_banner_7z9cMJ",
     "contact_form_BKjU3A",
     "collapsible_content_LbqWgE",
