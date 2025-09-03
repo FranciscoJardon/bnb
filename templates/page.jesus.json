@@ -224,13 +224,13 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_7X7hfR": {
+    "image_banner_RPi6nA": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/primero.png",
+        "image": "shopify://shop_images/19.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -241,13 +241,13 @@
         "show_text_below": true
       }
     },
-    "image_banner_RPi6nA": {
+    "image_banner_7X7hfR": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/19.png",
+        "image": "shopify://shop_images/primero.png",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -442,6 +442,35 @@
         "show_text_below": true
       }
     },
+    "featured_collection_DeBPF6": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Otros productos que te pueden interesar",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "distribuidor-bnb-x-barralates",
+        "products_to_show": 2,
+        "columns_desktop": 2,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "accent-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_7z9cMJ": {
       "type": "image-banner",
       "blocks": {
@@ -612,6 +641,7 @@
     "banner_qGNPxG",
     "featured_collection_J4wMkU",
     "image_banner_6hTeyq",
+    "featured_collection_DeBPF6",
     "image_banner_7z9cMJ",
     "contact_form_BKjU3A",
     "collapsible_content_LbqWgE",
