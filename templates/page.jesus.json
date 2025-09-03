@@ -147,6 +147,16 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_r97j4M": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n        .container {\n            width: 100%;\n            max-width: 1200px;\n            margin: 0 auto;\n            overflow: hidden;\n        }\n\n        .column {\n            width: 40%;\n            float: left;\n            box-sizing: border-box;\n            padding: 20px;\n        }\n\n        .column2 {\n            width: 60%;\n            float: left;\n            box-sizing: border-box;\n            padding: 20px;\n        }\n\n        /* Clearfix para solucionar problemas de float */\n        .clearfix::after {\n            content: \"\";\n            display: table;\n            clear: both;\n        }\n\n        @media screen and (max-width: 767px) {\n            .column {\n                width: 100%;\n            }\n            .column2 {\n                width: 100%;\n            }\n        }\n    </style>\n\n<div class=\"container clearfix\" style=\"background-color:white; max-width:900px;margin:0 auto;\">\n    <div class=\"column\">\n        <video width=\"100%\" controls>\n            <source src=\"https://cdn.shopify.com/videos/c/o/v/e76f4dca931341d0b1c20572a17e8b27.mp4\" type=\"video/mp4\">\n            Tu navegador no soporta el elemento de video.\n        </video>\n    </div>\n\n    <div class=\"column2\">\n        <h1 style=\"color:#123005;\">La Recomendación de un Experto: Por Qué Confío en Colágeno BNB</h1>\n        <h3 style=\"font-weight:normal !Important;color:#123005;\">Descubre los puntos clave que un profesional de la salud busca en un suplemento y por qué BNB cumple con todos.</h3>\n<h2 style=\"color:#123005; font-style:italic\">Se parte de esta hermosa comunidad</h2>\n\n<div style=\"border:1px solid #123005; padding:10px 20px;\">\n<a href=\"https://bnbcorpmx.com/#:~:text=Siguenos%20en%20Instagram-,%40bnbcorp,-.\" style=\"color:#123005; text-decoration:none; text-transform:uppercase;\">Siguenos en Instagram @bnbcorp</a>\n</div>\n    </div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multicolumn_UNCBP8": {
       "type": "multicolumn",
       "blocks": {
@@ -316,7 +326,7 @@
         "heading_WgBaf7": {
           "type": "heading",
           "settings": {
-            "heading": "Lo que opinán",
+            "heading": "Lo que opinan de nosotros",
             "heading_size": "h1"
           }
         }
@@ -332,6 +342,16 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
+      }
+    },
+    "custom_liquid_GbMjGx": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .vt3 {\n    width: 100%;\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 16px 12px;\n    box-sizing: border-box;\n  }\n\n  .vt3__title {\n    text-align: center;\n    color: #123005;\n    font-weight: 700;\n    margin: 0 0 18px;\n    font-size: clamp(22px, 3.2vw, 34px);\n    line-height: 1.2;\n  }\n\n  .vt3__grid {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 18px;\n  }\n\n  @media (min-width: 640px) {\n    .vt3__grid { grid-template-columns: repeat(2, 1fr); }\n  }\n  @media (min-width: 992px) {\n    .vt3__grid { grid-template-columns: repeat(3, 1fr); }\n  }\n\n  .vt3__card {\n    background: #ffffff;\n    border-radius: 14px;\n    box-shadow: 0 8px 24px rgba(0,0,0,.08);\n    padding: 10px;\n  }\n\n  /* Videos verticales 9:16 */\n  .vt3__video {\n    display: block;\n    width: 100%;\n    height: auto;\n    aspect-ratio: 9/16;\n    border-radius: 12px;\n    background: #000;\n    object-fit: cover;\n  }\n\n  .vt3__caption {\n    text-align: center;\n    color: #123005;\n    margin-top: 10px;\n    font-size: 14px;\n  }\n</style>\n\n<div class=\"vt3\">\n  <h2 class=\"vt3__title\"></h2>\n\n  <div class=\"vt3__grid\">\n\n    <!-- Testimonio 1 -->\n    <div class=\"vt3__card\">\n      <video class=\"vt3__video\" controls preload=\"metadata\" playsinline>\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/e76f4dca931341d0b1c20572a17e8b27.mp4\" type=\"video/mp4\">\n        Tu navegador no soporta el elemento de video.\n      </video>\n      <div class=\"vt3__caption\">❤️</div>\n    </div>\n\n    <!-- Testimonio 2 -->\n    <div class=\"vt3__card\">\n      <video class=\"vt3__video\" controls preload=\"metadata\" playsinline>\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/79ce824d32454d0c8d3cdcf8c61cc6de.mp4\" type=\"video/mp4\">\n        Tu navegador no soporta el elemento de video.\n      </video>\n      <div class=\"vt3__caption\">❤️</div>\n    </div>\n\n    <!-- Testimonio 3 (reutilizo segundo video como ejemplo) -->\n    <div class=\"vt3__card\">\n      <video class=\"vt3__video\" controls preload=\"metadata\" playsinline>\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/79ce824d32454d0c8d3cdcf8c61cc6de.mp4\" type=\"video/mp4\">\n        Tu navegador no soporta el elemento de video.\n      </video>\n      <div class=\"vt3__caption\">❤️</div>\n    </div>\n\n  </div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "banner_qGNPxG": {
@@ -546,12 +566,14 @@
     "rich_text_UTQbQU",
     "titulo_distribuidore_ctNaYU",
     "featured_product_HkrX7Q",
+    "custom_liquid_r97j4M",
     "multicolumn_UNCBP8",
     "image_banner_RPi6nA",
     "anuncios_barra_waeeBk",
     "rich_text_7H78EN",
     "banner_GBJYQe",
     "rich_text_zMBVFa",
+    "custom_liquid_GbMjGx",
     "banner_qGNPxG",
     "featured_collection_J4wMkU",
     "image_banner_7z9cMJ",
