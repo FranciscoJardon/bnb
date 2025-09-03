@@ -165,6 +165,30 @@
       ],
       "settings": {}
     },
+    "banner_P9zbzF": {
+      "type": "Banner",
+      "blocks": {
+        "image_RcYWT6": {
+          "type": "image",
+          "settings": {
+            "ImgBannerDesk": "shopify://shop_images/Gemini_Generated_Image_7pt4ce7pt4ce7pt4.png",
+            "UrlBanner": "https://bnbcorpmx.com/pages/bnb-x-barralates",
+            "TituloBtnBanner": "",
+            "BtnBackColor": "#f5e0e9",
+            "BtnTextColor": "#ffffff",
+            "Top": 100,
+            "Left": 100,
+            "TopTel": 20,
+            "LeftTel": 10
+          }
+        }
+      },
+      "block_order": [
+        "image_RcYWT6"
+      ],
+      "name": "SliderBanner",
+      "settings": {}
+    },
     "cd3b283b-85cc-4485-93a3-ef79241f1619": {
       "type": "featured-collection",
       "custom_css": [
@@ -249,6 +273,30 @@
     "e97ccc62-1e62-43bf-80f3-34fc1a56b0ce": {
       "type": "galeria",
       "blocks": {
+        "image_VycErV": {
+          "type": "image",
+          "settings": {
+            "Img": "shopify://shop_images/2_8.png"
+          }
+        },
+        "image_a6Aajx": {
+          "type": "image",
+          "settings": {
+            "Img": "shopify://shop_images/6_2.png"
+          }
+        },
+        "image_tBX4d3": {
+          "type": "image",
+          "settings": {
+            "Img": "shopify://shop_images/BNB_43.jpg"
+          }
+        },
+        "image_UQHEJM": {
+          "type": "image",
+          "settings": {
+            "Img": "shopify://shop_images/4_3.png"
+          }
+        },
         "070943f3-7e9e-469d-989b-d272ee776f8b": {
           "type": "image",
           "settings": {
@@ -299,12 +347,17 @@
         },
         "31c8f445-7041-4245-8b99-6b1dcbe6c836": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "Img": "shopify://shop_images/BNB_CORP-52.jpg"
           }
         }
       },
       "block_order": [
+        "image_VycErV",
+        "image_a6Aajx",
+        "image_tBX4d3",
+        "image_UQHEJM",
         "070943f3-7e9e-469d-989b-d272ee776f8b",
         "af150d9e-1743-4f10-a97c-7e109ba123f3",
         "38d063c3-53fe-41d4-bf1e-3bdea6220550",
@@ -404,6 +457,7 @@
   "order": [
     "slideshow_8KH7PQ",
     "01751188-9a20-4d1f-a7a7-20e864c23a1b",
+    "banner_P9zbzF",
     "cd3b283b-85cc-4485-93a3-ef79241f1619",
     "dd349e4b-e8c6-4806-bf6a-b7f2ea543dd9",
     "custom_liquid_fDP6i8",
