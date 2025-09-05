@@ -241,22 +241,30 @@
         "show_text_below": true
       }
     },
-    "image_banner_7X7hfR": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/pagina_bnb_1500_x_1080_px.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
+    "banner_TXjAKm": {
+      "type": "Banner",
+      "blocks": {
+        "image_EKcWjT": {
+          "type": "image",
+          "settings": {
+            "ImgBannerDesk": "shopify://shop_images/pagina_bnb_1500_x_1080_px.png",
+            "ImgBannerMov": "shopify://shop_images/Original_3.png",
+            "UrlBanner": "",
+            "TituloBtnBanner": "",
+            "BtnBackColor": "#ffffff",
+            "BtnTextColor": "#ffffff",
+            "Top": 20,
+            "Left": 10,
+            "TopTel": 20,
+            "LeftTel": 10
+          }
+        }
+      },
+      "block_order": [
+        "image_EKcWjT"
+      ],
+      "name": "SliderBanner",
+      "settings": {}
     },
     "anuncios_barra_waeeBk": {
       "type": "anuncios-barra",
@@ -460,7 +468,7 @@
       "settings": {
         "image": "shopify://shop_images/Nuestras_embajadoras.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -632,7 +640,7 @@
     "custom_liquid_r97j4M",
     "multicolumn_UNCBP8",
     "image_banner_RPi6nA",
-    "image_banner_7X7hfR",
+    "banner_TXjAKm",
     "anuncios_barra_waeeBk",
     "rich_text_7H78EN",
     "banner_GBJYQe",
