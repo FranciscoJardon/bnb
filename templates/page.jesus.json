@@ -484,6 +484,9 @@
       "block_order": [
         "image_JeiNKP"
       ],
+      "custom_css": [
+        "a.BtnStyles {display: none;}"
+      ],
       "name": "SliderBanner",
       "settings": {}
     },
