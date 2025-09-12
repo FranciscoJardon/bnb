@@ -224,22 +224,30 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_RPi6nA": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/19.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
+    "banner_BFk6Ej": {
+      "type": "Banner",
+      "blocks": {
+        "image_YK6cVC": {
+          "type": "image",
+          "settings": {
+            "ImgBannerDesk": "shopify://shop_images/Maria_Lau_4.jpg",
+            "ImgBannerMov": "shopify://shop_images/Diseno_sin_titulo_25.jpg",
+            "UrlBanner": "",
+            "TituloBtnBanner": "",
+            "BtnBackColor": "#ffffff",
+            "BtnTextColor": "#ffffff",
+            "Top": 20,
+            "Left": 10,
+            "TopTel": 1,
+            "LeftTel": 10
+          }
+        }
+      },
+      "block_order": [
+        "image_YK6cVC"
+      ],
+      "name": "SliderBanner",
+      "settings": {}
     },
     "banner_TXjAKm": {
       "type": "Banner",
@@ -650,7 +658,7 @@
     "featured_product_HkrX7Q",
     "custom_liquid_r97j4M",
     "multicolumn_UNCBP8",
-    "image_banner_RPi6nA",
+    "banner_BFk6Ej",
     "banner_TXjAKm",
     "anuncios_barra_waeeBk",
     "rich_text_7H78EN",
