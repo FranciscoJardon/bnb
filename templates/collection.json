@@ -9,16 +9,202 @@
  */
 {
   "sections": {
+    "rich_text_7xJFcy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kgzMyz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Patrocinio Exclusivo: Paquetes y Muestras <em><strong>GRATIS </strong></em><em>Para Tus Eventos</em>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kgzMyz"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": ""
       }
     },
+    "featured_product_ngrEee": {
+      "type": "featured-product",
+      "blocks": {
+        "text_MFxJRx": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_EPAkPr": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_Ax3fRg": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_zaFTL3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_c7jEpc": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "text_i9VXEb": {
+          "type": "text",
+          "settings": {
+            "text": "INCLUYE: <strong>Hasta 30 muestras de colágeno GRATIS para tu evento.</strong>",
+            "text_style": "body"
+          }
+        },
+        "buy_buttons_9hzCPh": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "share_4MQRFK": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_MFxJRx",
+        "title_EPAkPr",
+        "price_Ax3fRg",
+        "variant_picker_zaFTL3",
+        "quantity_selector_c7jEpc",
+        "text_i9VXEb",
+        "buy_buttons_9hzCPh",
+        "share_4MQRFK"
+      ],
+      "custom_css": [
+        ".payment-icons {display: flex; max-width: 450px; justify-content: center; margin-top: 0px; gap: 20px;}",
+        ".price__sale {font-size: 2.4rem; font-weight: 600;}"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "paquete-patrocinio",
+        "color_scheme": "accent-2",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_qmXwR3": {
+      "type": "featured-product",
+      "blocks": {
+        "text_f9Y8EM": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_AwKEDz": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_JwXJVY": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_rxxqYm": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_LAABW3": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "text_z3XnXr": {
+          "type": "text",
+          "settings": {
+            "text": "INCLUYE: <strong>Hasta 60 muestras en total </strong>repartidas entre colágeno, green y crema <strong>GRATIS para tu evento.</strong>",
+            "text_style": "body"
+          }
+        },
+        "buy_buttons_96yaTT": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "share_KLTpAA": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_f9Y8EM",
+        "title_AwKEDz",
+        "price_JwXJVY",
+        "variant_picker_rxxqYm",
+        "quantity_selector_LAABW3",
+        "text_z3XnXr",
+        "buy_buttons_96yaTT",
+        "share_KLTpAA"
+      ],
+      "custom_css": [
+        ".payment-icons {display: flex; max-width: 450px; justify-content: center; margin-top: 0px; gap: 20px;}",
+        ".price__sale {font-size: 2.4rem; font-weight: 600;}"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "paquetes-inicio",
+        "color_scheme": "accent-2",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 3,
@@ -38,7 +224,10 @@
     }
   },
   "order": [
+    "rich_text_7xJFcy",
     "banner",
+    "featured_product_ngrEee",
+    "featured_product_qmXwR3",
     "product-grid"
   ]
 }
