@@ -216,6 +216,74 @@
         "padding_bottom": 60
       }
     },
+    "featured_product_DmmqCQ": {
+      "type": "featured-product",
+      "blocks": {
+        "text_EgwmbU": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_3YjFKV": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_tqhw8p": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_AFmHwM": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_byTEpC": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_nRi446": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "share_XN4tpY": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_EgwmbU",
+        "title_3YjFKV",
+        "price_tqhw8p",
+        "variant_picker_AFmHwM",
+        "quantity_selector_byTEpC",
+        "buy_buttons_nRi446",
+        "share_XN4tpY"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "colageno-hidrolizado-1",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "dd349e4b-e8c6-4806-bf6a-b7f2ea543dd9": {
       "type": "featured-collection",
       "custom_css": [
@@ -454,6 +522,7 @@
     "slideshow_8KH7PQ",
     "01751188-9a20-4d1f-a7a7-20e864c23a1b",
     "cd3b283b-85cc-4485-93a3-ef79241f1619",
+    "featured_product_DmmqCQ",
     "dd349e4b-e8c6-4806-bf6a-b7f2ea543dd9",
     "custom_liquid_fDP6i8",
     "custom_liquid_gd8ekP",
